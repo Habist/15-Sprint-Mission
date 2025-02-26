@@ -2,14 +2,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Pretendard';
-    src: url('./fonts/PretendardVariable.woff2') format('woff2'),
-        url('./fonts/PretendardVariable.woff2') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
 html {
     font-family: 'Pretendard', sans-serif;
     font-size: 0.83vw;
