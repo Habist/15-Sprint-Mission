@@ -1,30 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-html {
-    font-family: 'Pretendard', sans-serif;
-}
-
-body {
-    margin: 0;
-}
-
-@font-face {
-    font-family: 'ROKAF Sans';
-    src: url("fonts/ROKAF_Slab_Serif_Bold.woff") format('woff');
-}
-
-a {
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .text-wrap{
     display: block;
 }
-
 
 /*herader section*/
 header {
@@ -45,23 +21,15 @@ header {
     gap: 10px;
 }
 .header__logo{
-    width: 40px;
-    height: 40px;
-}
-
-.header__title {
-    font-size: 25px;
-    font-weight: 700;
-    color: #3692FF;
-    font-family: 'ROKAF Sans', sans-serif;
-    margin-bottom: 5px;
+    width: 153px;
+    height: 51px;
 }
 
 .header__button {
     border-radius: 8px;
     width: 128px;
     height: 48px;
-    padding: 14px 23px;
+    padding: 16px 23px;
     color: #F3F4F6;
 }
 
@@ -222,7 +190,6 @@ header {
 
 /*Laptop Version*/
 @media (max-width: 1024px) {
-
    .herader-nav {
         margin-inline: 10%;
     }
@@ -240,12 +207,13 @@ header {
 
     .card {
         max-width: 760px;
-        height: 437px;
+        height: auto;
         gap: 48px;
     }
 
     .card__img {
         width: 60%;
+        height: auto;
     }
 
     .card__title {
@@ -261,7 +229,6 @@ header {
 
 /*Tablet Version*/
 @media (max-width: 768px) {
-
     .herader-nav {
         margin-inline: 10%;
     }
