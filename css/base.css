@@ -1,0 +1,94 @@
+:root {
+  --primary-50: #cfe5ff; /* background */
+
+  --primary-100: #3692ff; /* default */
+  --primary-200: #1967d6; /* hover */
+  --primary-300: #1251aa; /* active, focus */
+
+  --secondary-50: #f9fafb;
+  --secondary-100: #f3f4f6;
+  --secondary-200: #e5e7eb;
+  --secondary-300: #fcfcfc; /* card bg, bottom banner bg */
+  --secondary-400: #9ca3af; /* inactive */
+  --secondary-500: #6b7280;
+  --secondary-600: #4b5563;
+  --secondary-700: #374151;
+  --secondary-800: #1f2937;
+  --secondary-900: #111827; /* footer bg*/
+
+  --error: #f74747;
+}
+
+html {
+  font-size: 10px; /* === 62.5% (16 * 62.5% = 10px) */
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Pretendard", sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+ul,
+ol {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+  background-color: var(--primary-100);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--primary-200);
+}
+
+button:active {
+  background-color: var(--primary-300);
+}
+
+button:disabled {
+  background-color: var(--secondary-400);
+  cursor: not-allowed;
+}

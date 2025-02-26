@@ -1,0 +1,172 @@
+/* header */
+main,
+footer {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  min-height: 7rem;
+}
+
+.header-content {
+  max-width: 110rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 4rem;
+}
+
+header h2 {
+  font-weight: 900;
+  color: var(--primary-100);
+  margin-left: 1rem;
+}
+
+.login-button {
+  padding: 1.3rem 4rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+/* banner */
+.banner-img {
+  max-height: 34rem;
+}
+
+.banner {
+  background-color: var(--primary-50);
+  min-height: 54rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 12rem 0;
+}
+
+.banner .title {
+  line-height: 5rem;
+}
+
+.change-line {
+  display: block;
+}
+
+.view-button {
+  padding: 1.1rem 10rem;
+  border-radius: 40px;
+  font-size: 1.4rem;
+}
+
+/* bottom banner */
+.bottom {
+  width: 100%;
+  background-color: var(--secondary-300);
+  padding-top: 13rem;
+}
+
+/* home-cards home-card */
+.home-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card-container {
+  max-width: 95rem;
+  padding: 13rem 0;
+}
+
+.home-card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: auto;
+  background-color: var(--secondary-300);
+  padding: 0 1rem;
+}
+
+.home-card-img {
+  max-width: 58rem;
+}
+
+.home-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.home-card-info .badge {
+  font-size: 1.4rem;
+  color: var(--primary-100);
+  font-weight: 700;
+}
+
+.home-card-info .title {
+  line-height: 5rem;
+}
+
+.home-card-info .text {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+.home-card-container:nth-child(2) .home-card-content {
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+/* footer */
+footer {
+  background-color: var(--secondary-900);
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  min-height: 16rem;
+  height: auto;
+}
+
+.footer-content {
+  max-width: 90rem;
+  width: 100%;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  font-size: 1.6rem;
+  justify-self: start;
+}
+
+.support {
+  justify-self: center;
+}
+.support a {
+  margin-right: 1.5rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-self: end;
+}
