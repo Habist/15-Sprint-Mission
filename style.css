@@ -3,13 +3,6 @@
 }
 
 @font-face {
-    font-family: 'ROKAF Sans';
-    src: url('/fonts/ROKAF.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Pretendard';
     src: url('./fonts/PretendardVariable.woff2') format('woff2'),
         url('./fonts/PretendardVariable.woff2') format('woff');
@@ -46,16 +39,8 @@ a {
     gap: 0.52vw;
 }
 
-.logo-img {
-    width: 2.08vw;
-}
-
-.logo-text {
-    font-family: 'ROKAF Sans', sans-serif;
-    font-size: 1.5625rem;
-    font-weight: 700;
-    margin-top: 0.52vw;
-    color: #3692FF
+.logo {
+    width: 7.97vw;
 }
 
 .login-link {
