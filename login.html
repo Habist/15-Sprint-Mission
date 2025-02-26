@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="css/login/style.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="form">
+        <a class="form__logo-link" href="/">
+            <img class="form__logo" src="images/logo/logo.png" alt="logo">
+        </a>
+        <form class="form__body">
+            <label class="form__label" for="email">
+                이메일
+                <input class="form__input" id="email" type="email" name="email" placeholder="">
+            </label>
+            
+            <label class="form__label form__pwd" for="password">
+                비밀번호
+                <input class="form__input input--password" id="password" type="password" name="password" placeholder="">
+            </label>  
+            
+            <button class="form__button--login" type="submit">로그인</button>
+    
+            <div class="form__sns">
+                <p class="form__sns-title">간편 로그인 하기</p>
+                <ul class="form__sns-list">
+                    <li class="form__sns-item">
+                        <a class="form__sns-link" href="https://www.google.com/">
+                            <img class="form__sns-icon" src="images/icon/ic_google.png" alt="google">
+                        </a>
+                    </li>
+                    <li class="form__sns-item">
+                        <a class="form__sns-link" href="https://www.kakaocorp.com/page/">
+                            <img class="form__sns-icon" src="images/icon/ic_kakaotalk.png" alt="kakao">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <p class="form__footer">
+                판다마켓이 처음이신가요? 
+                <a class="form__link--signup" href="signup.html">회원가입</a>
+            </p>
+        </form>
+    </section>
     
 </body>
 </html>

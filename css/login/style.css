@@ -1,0 +1,88 @@
+.form {
+    margin: 231px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__body {
+    width: 640px;
+    height: 618px;
+}
+
+.form__logo{
+    display: block;
+    width: 396px;
+    height: 132px;
+    margin-bottom: 32px;
+}
+ .form__label {
+    display: block;
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray800);
+ }
+ .form__input {
+    width: 100%;
+    height: 56px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding: 14px 24px;
+    background-color: var(--gray100);
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .form__button--login {
+    width: 100%;
+    height: 56px;
+    padding-block: 16px;
+    margin-bottom: 24px;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--blue);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+ }
+
+ .form__sns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    padding: 16px 23px;
+    margin-bottom: 24px;
+    background-color: var(--light-blue);
+    border-radius: 12px;
+ }
+ .form__sns-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray800);
+ }
+ .form__sns-list {
+    display: flex;
+    gap: 16px;
+
+ }
+ .form__sns-icon {
+    width: 42px;
+    height: 42px;
+ }
+
+
+ .form__footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray800);
+ }
+ .form__link--signup {
+    text-decoration: underline;
+    color: var(--blue);
+ }
