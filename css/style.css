@@ -90,23 +90,16 @@ header h2 {
   justify-content: center;
 }
 
-.home-card-container {
-  max-width: 95rem;
-  padding: 13rem 0;
-}
-
 .home-card-content {
+  max-width: 95rem;
+  margin: 13rem 0;
+  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
   height: auto;
   background-color: var(--secondary-300);
-  padding: 0 1rem;
-}
-
-.home-card-img {
-  max-width: 58rem;
 }
 
 .home-card-info {
@@ -132,7 +125,7 @@ header h2 {
   margin-top: 1rem;
 }
 
-.home-card-container:nth-child(2) .home-card-content {
+.home-card-content:nth-child(2) {
   flex-direction: row-reverse;
   text-align: end;
 }
@@ -224,16 +217,13 @@ breakpoint: 1920px, 1024px, 768px
     margin-top: 15rem;
   }
 
-  .home-card-container {
-    padding: 2rem 0;
-  }
-
   .home-card-content {
+    margin: 2rem 0;
     flex-direction: column;
     align-items: start;
   }
 
-  .home-card-container:nth-child(2) .home-card-content {
+  .home-card-content:nth-child(2) {
     flex-direction: column;
     text-align: end;
   }
