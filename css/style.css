@@ -60,7 +60,7 @@ header h2 {
   margin: 12rem 0;
 }
 
-.banner .title {
+.banner-title {
   line-height: 5rem;
 }
 
@@ -115,17 +115,17 @@ header h2 {
   width: 100%;
 }
 
-.home-card-info .badge {
+.home-card-badge {
   font-size: 1.4rem;
   color: var(--primary-100);
   font-weight: 700;
 }
 
-.home-card-info .title {
+.home-card-title {
   line-height: 5rem;
 }
 
-.home-card-info .text {
+.home-card-description {
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 1rem;
