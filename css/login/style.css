@@ -48,7 +48,22 @@
     font-weight: 600;
     color: var(--white);
  }
+.form__pwd {
+   position: relative;
+}
+.visbility-button {
+   background-image: url('/images/icon/ic_visibility_off.svg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 24px;
+   height: 24px;
+   position: absolute;
+   top: 34%;
+   right: 5%;
+}
 
+ 
  .form__sns {
     display: flex;
     justify-content: space-between;
