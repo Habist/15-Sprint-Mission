@@ -90,9 +90,10 @@ nav > button > a {
 .card {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #fcfcfc;
   flex-grow: 1;
+  gap: 10rem;
 }
 
 .card-title {
@@ -118,7 +119,7 @@ nav > button > a {
   line-height: 1.4;
 }
 .card > img {
-  width: 50%;
+  width: 25%;
 }
 footer {
   background-color: #111827;
@@ -128,6 +129,11 @@ footer {
   justify-content: space-around;
   padding: 1.5em;
 }
+
+footer > ul {
+  display: flex;
+}
+
 .copyright {
   color: #9ca3af;
 }
