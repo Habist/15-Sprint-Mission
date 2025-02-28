@@ -103,3 +103,17 @@ ul {
 li img {
     width: 4.2rem;
 }
+
+.ask-signup-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    gap: 0.4rem;
+}
+
+.ask-signup-section a {
+    color: #3692ff;
+}
