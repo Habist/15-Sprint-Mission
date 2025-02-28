@@ -1,3 +1,6 @@
+/* home.css */
+
+/* 페이지 스타일 */
 body {
     margin: 0 auto;
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -16,11 +19,6 @@ h2 {
     font-weight: 700;
     line-height: 56px;
     color: #374151;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 a {
@@ -111,7 +109,6 @@ a {
     align-items: center;
 }
 
-
 .container {
     margin: 138px 0;
     width: 988px;
@@ -132,13 +129,12 @@ a {
 }
 
 .description.second {
-    text-align: right
+    text-align: right;
 }
 
 .description.third {
     width: 359px;
 }
-
 
 .description h4 {
     color: #3692FF;
@@ -185,7 +181,7 @@ footer {
     gap: 30px;
 }
 
-.privacy_faq a{
+.privacy_faq a {
     text-decoration: none;
     color: #E5E7EB;
 }
