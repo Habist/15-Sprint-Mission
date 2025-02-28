@@ -29,7 +29,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    position: relative;
 }
 
 header {
@@ -81,4 +80,26 @@ button {
 .email-container,
 .password-container {
     gap: 16px;
+}
+
+.social-login {
+    background-color: #E6F2FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 2.3rem;
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    border-radius: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 1.6rem;
+}
+
+li img {
+    width: 4.2rem;
 }
