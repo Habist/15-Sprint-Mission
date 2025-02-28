@@ -49,14 +49,14 @@ label {
 }
 
 input {
-    height: 56px;
+    height: 5.6rem;
     border: none;
     border-radius: 12px;
     background-color: var(--gray100);
 }
 
 button {
-    height: 56px;
+    height: 5.6rem;
     border: none;
     border-radius: 40px;
     background-color: var(--blue);
@@ -74,12 +74,12 @@ button {
 }
 
 .login-form {
-    gap: 24px;
+    gap: 2.4rem;
 }
 
 .email-container,
 .password-container {
-    gap: 16px;
+    gap: 1.6rem;
 }
 
 .social-login {
