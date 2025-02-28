@@ -1,0 +1,73 @@
+@import "./reset.css";
+
+:root {
+    --gray50: #f9fafb;
+    --gray100: #f3f4f6;
+    --gray200: #e5e7eb;
+    --gray400: #9ca3af;
+    --gray500: #6b7280;
+    --gray600: #4b5563;
+    --gray700: #374151;
+    --gray800: #1f2937;
+    --gray900: #111827;
+    --blue: #3692ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    width: 64rem;
+}
+
+main {
+    width: 64rem;
+}
+
+label {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+input {
+    height: 56px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--gray100);
+}
+
+.login-form,
+.email-container,
+.password-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    gap: 24px;
+}
+
+.email-container,
+.password-container {
+    gap: 16px;
+}

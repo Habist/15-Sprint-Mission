@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="/style/login.css">
     <title>로그인</title>
 </head>
 
@@ -14,12 +17,17 @@
     <main>
         <section>
 
-            <form>
-                <label for="login-email">이메일</label>
-                <input id="login-email" name="email" type="email">
+            <form class="login-form">
 
-                <label for="login-password">비밀번호</label>
-                <input id="login-password" name="password" type="password">
+                <div class="email-container">
+                    <label for="login-email">이메일</label>
+                    <input id="login-email" name="email" type="email">
+                </div>
+
+                <div class="password-container">
+                    <label for="login-password">비밀번호</label>
+                    <input id="login-password" name="password" type="password">
+                </div>
 
                 <button type="submit">
                     로그인
