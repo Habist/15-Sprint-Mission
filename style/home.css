@@ -6,7 +6,7 @@
 
 html {
     font-family: 'Pretendard', sans-serif;
-    font-size: 0.83vw;
+    font-size: 62.5%;
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
-    height: 3.65vw;
+    height: 7rem;
     background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     top: 0;
@@ -43,79 +43,75 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.52vw;
-}
-
-.logo {
-    width: 7.97vw;
+    height: 5.1rem;
 }
 
 .login-link {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #ffffff;
     background-color: var(--blue);
-    border-radius: 0.42vw;
-    padding: 0.63vw 1.2vw;
+    border-radius: 8px;
+    padding: 1.2rem 2.3rem;
 }
 
 .top-section,
 .bottom-section {
-    margin-top: 3.65vw;
+    margin-top: 7rem;
     background-color: #CFE5FF;
-    height: 28.13vw;
+    height: 54rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .bottom-section {
-    margin-top: 7.19vw;
+    margin-top: 13.8rem;
 }
 
 .top-section img {
-    width: 38.85vw;
-    height: 17.71vw;
+    width: 74.6rem;
+    height: 34rem;
 }
 
 .bottom-section img {
-    width: 38.85vw;
-    height: 20.68vw;
+    width: 74.6rem;
+    height: 39.7rem;
 }
 
 .top-section-container {
     display: flex;
     align-items: center;
-    gap: 0.36vw;
+    gap: 0.7rem;
 }
 
 .bottom-section-container {
     display: flex;
     align-items: center;
-    gap: 3.59vw;
+    gap: 6.9rem;
 }
 
 .top-section-text,
 .bottom-section-text {
-    padding-bottom: 3.13vw;
+    padding-bottom: 6rem;
 }
 
 .top-section-text p,
 .bottom-section-text p {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 2.92vw;
+    line-height: 5.6rem;
     color: var(--gray700);
 }
 
 .top-section-text a {
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #ffffff;
     background-color: var(--blue);
-    padding: 0.83vw 6.46vw;
-    border-radius: 2.08vw;
-    margin-top: 1.67vw;
+    padding: 1.6rem 12.4rem;
+    border-radius: 40px;
+    margin-top: 3.2rem;
     display: inline-block;
 }
 
@@ -123,7 +119,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7.19vw 0;
+    padding: 13.8rem 0;
 }
 
 .hot-item,
@@ -131,78 +127,78 @@ a {
 .register {
     display: flex;
     align-items: center;
-    gap: 3.33vw;
+    gap: 6.4rem;
     background-color: #fcfcfc;
-    border-radius: 0.63vw;
+    border-radius: 1.2rem;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
-    gap: 0.63vw;
+    gap: 1.2rem;
 }
 
 .hot-item .text-container,
 .register .text-container {
-    padding-right: 1.25vw;
+    padding-right: 2.4rem;
 }
 
 .search .text-container {
-    padding-left: 1.25vw;
+    padding-left: 2.4rem;
 }
 
 .small-text {
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    line-height: 2.92vw;
+    line-height: 5.6rem;
     color: var(--blue);
 }
 
 .big-text {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 2.92vw;
+    line-height: 5.6rem;
     color: var(--gray700);
 }
 
 .main-section p {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 500;
-    line-height: 1.67vw;
+    line-height: 3.2rem;
     color: var(--gray700);
 }
 
 .main-section img {
-    width: 30.16vw;
-    height: 23.13vw;
+    width: 57.9rem;
+    height: 44.4rem;
 }
 
 footer {
     background-color: var(--gray900);
-    height: 8.33vw;
-    padding: 1.67vw 20vw;
+    height: 16rem;
+    padding: 3.2rem 40rem;
     display: flex;
     justify-content: space-between;
 }
 
 .codeit {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 0.99vw;
+    line-height: 1.9rem;
     color: var(--gray400)
 }
 
 .footer-center {
     display: flex;
-    gap: 1.56vw;
-    font-size: 1rem;
+    gap: 3rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 0.99vw;
+    line-height: 1.9rem;
     color: var(--gray200)
 }
 
 .footer-right a {
-    margin-right: 0.63vw;
+    margin-right: 1.2rem;
 }
 
 .footer-right a:last-child {
@@ -210,6 +206,6 @@ footer {
 }
 
 .footer-right img {
-    width: 1.04vw;
-    height: 1.04vw;
+    width: 2rem;
+    height: 2rem;
 }
