@@ -117,3 +117,7 @@ li img {
 .ask-signup-section a {
     color: #3692ff;
 }
+
+button {
+    cursor: pointer;
+}
