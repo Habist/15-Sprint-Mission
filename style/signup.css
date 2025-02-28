@@ -53,6 +53,7 @@ input {
     border: none;
     border-radius: 12px;
     background-color: var(--gray100);
+    padding: 1.6rem 2.4rem;
 }
 
 button {
