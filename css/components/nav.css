@@ -17,10 +17,11 @@ nav {
   img {
     height: 100%;
   }
-  button {
-    width: 128px;
-    height: 48px;
-    padding: 0.5rem 1.45rem;
+  #login {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.5rem 2.5rem;
     border-radius: 8px;
     border: none;
     color: #ffffff;

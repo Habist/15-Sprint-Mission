@@ -1,8 +1,7 @@
 footer {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 160px;
+  height: 15rem;
   background-color: #111827;
 }
 
@@ -10,10 +9,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1120px;
+  margin-top: 2.5rem;
+  width: 80%;
+  height: 8%;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
+  img {
+    height: 100%;
+  }
 }
 
 .footer-middle {
@@ -23,5 +27,6 @@ footer {
 
 .footer-right {
   display: flex;
+  height: 100%;
   gap: 12px;
 }
