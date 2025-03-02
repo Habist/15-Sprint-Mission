@@ -4,8 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로그인</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/login_style.css" />
   </head>
   <body>
-    로그인
+    <main>
+      <header>
+        <img src="./img/logo.png" alt="판다마켓 로고" />
+      </header>
+      <form>
+        <label for=""> 이메일 </label>
+        <input type="email" />
+        <div class="pw_area">
+          <label for="password"> 비밀번호 </label>
+          <div class="visible_icon"></div>
+          <input type="password" name="" id="password" />
+        </div>
+        <a href="" class="primary_btn">로그인</a>
+      </form>
+      <footer>
+        <div class="sns_login">
+          <span>간편 로그인하기</span>
+          <ul>
+            <li>
+              <a href=""
+                ><img
+                  class="sns_icon"
+                  src="./img/google_icon.png"
+                  alt="구글로그인"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="sns_icon"
+                  src="./img/kakaotalk_icon.png"
+                  alt="카카오로그인"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <p class="go_joinpage">
+          판다마켓이 처음이신가요? <a href="">회원가입</a>
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
