@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/pages/login/login.css" />
-    <title>판다마켓 - login</title>
+    <title>판다마켓 - join</title>
   </head>
   <body>
     <main class="loginContainer">
@@ -19,13 +19,25 @@
             placeholder="이메일을 입력해주세요"
             required
           />
+          <label for="login-nickname"> 닉네임 </label>
+          <input
+            id="login-nickname"
+            type="text"
+            placeholder="닉네임을 입력해주세요"
+          />
           <label for="login-password"> 비밀번호 </label>
           <input
             id="login-password"
             type="password"
             placeholder="비밀번호를 입력해주세요"
           />
-          <input type="submit" value="로그인" id="login-submit" />
+          <label for="login-password2"> 비밀번호 확인</label>
+          <input
+            id="login-password2"
+            type="password"
+            placeholder="비밀번호를 다시 입력해주세요"
+          />
+          <input type="submit" value="회원가입" id="login-submit" />
         </form>
         <div class="social-login">
           <span>간편 로그인하기</span>
@@ -39,8 +51,8 @@
           </div>
         </div>
         <div class="join">
-          <span>판다마켓이 처음이신가요?</span>
-          <a href="../screens/join.html">회원가입</a>
+          <span>이미 회원이신가요요?</span>
+          <a href="../screens/login.html">로그인</a>
         </div>
       </div>
     </main>
