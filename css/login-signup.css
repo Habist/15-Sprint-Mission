@@ -1,35 +1,35 @@
-.register-body {
+.login-signup-body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.register-container {
+.login-signup-container {
   display: flex;
   flex-direction: column;
   width: 64rem;
 }
 
 /* login header */
-.register-header {
+.login-signup-header {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
 }
 
-.register-header .logo {
+.login-signup-header .logo {
   width: 10rem;
 }
 
-.register-header h2 {
+.login-signup-header h2 {
   font-weight: 900;
   color: var(--primary-100);
   font-size: 6rem;
   margin-left: 2rem;
 }
 
-/* register form */
-.register-form {
+/* login-signup form */
+.login-signup-form {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -52,7 +52,7 @@ input {
   padding-left: 2.4rem;
 }
 
-.register-button {
+.login-signup-button {
   font-size: 2rem;
   font-weight: 600;
   line-height: 3.2rem;
