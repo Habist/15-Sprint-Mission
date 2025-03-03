@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/css/account.css" />
+    <!-- pretendard cdn -->
     <link
       rel="stylesheet"
       as="style"
@@ -36,7 +37,9 @@
           class="form-image"
           onclick="goHomepage()"
         />
+        <!-- login form -->
         <form class="login-form">
+          <!-- email label -->
           <label for="form-email">
             이메일
             <input
@@ -47,6 +50,7 @@
             />
           </label>
 
+          <!-- password label -->
           <label for="form-password"
             >비밀번호
             <div class="password-box">
@@ -59,7 +63,9 @@
               <i class="fa-regular fa-eye toggle-password"></i>
             </div>
           </label>
+
           <button>로그인</button>
+          <!-- 간편 로그인 -->
           <div class="easy-login">
             <span>간편 로그인 하기</span>
             <div class="easy-login-icon">
@@ -74,6 +80,7 @@
               /></a>
             </div>
           </div>
+          <!-- 최하단 메시지 요소 -->
           <div class="message-box">
             <p class="message">
               판다마켓이 처음이신가요?
@@ -83,6 +90,7 @@
         </form>
       </div>
     </div>
+    <!-- 비밀번호 showing clickEvent import -->
     <script src="/js/login_password_showing.js"></script>
   </body>
 </html>

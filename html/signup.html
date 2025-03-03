@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/css/account.css" />
-    <!-- pretendard -->
+    <!-- pretendard cdn -->
     <link
       rel="stylesheet"
       as="style"
@@ -37,7 +37,9 @@
           class="form-image"
           onclick="goHomepage()"
         />
+        <!-- 회원 가입 폼 -->
         <form class="submit-form">
+          <!-- 이메일 -->
           <label for="submit-email">
             이메일
             <input
@@ -48,6 +50,7 @@
             />
           </label>
 
+          <!-- 닉네임 -->
           <label for="submit-name">
             닉네임
             <input
@@ -58,6 +61,7 @@
             />
           </label>
 
+          <!-- 패스워드 -->
           <label for="form-password"
             >비밀번호
             <div class="password-box">
@@ -67,6 +71,7 @@
                 placeholder="password"
                 id="form-password"
               />
+              <!-- fontawesome 비밀번호 표시 -->
               <i
                 class="fa-regular fa-eye toggle-password"
                 onclick="togglePasswordVisibility('form-password', this)"
@@ -74,6 +79,7 @@
             </div>
           </label>
 
+          <!-- 비밀번호 확인 -->
           <label for="form-password-check"
             >비밀번호확인
             <div class="password-box">
@@ -92,6 +98,7 @@
 
           <button>회원가입</button>
 
+          <!-- 간편 로그인 -->
           <div class="easy-login">
             <span>간편 로그인 하기</span>
             <div class="easy-login-icon">
@@ -106,6 +113,8 @@
               /></a>
             </div>
           </div>
+
+          <!-- 최하단 메시지 박스 -->
           <div class="message-box">
             <p class="message">
               이미 회원이신가요?

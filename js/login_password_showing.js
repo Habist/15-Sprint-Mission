@@ -17,6 +17,7 @@ function togglePasswordVisibility(inputId, iconElement) {
   }
 }
 
+//  index.html로 이동
 const goHomepage = () => {
   window.location.href = "/index.html";
 };
