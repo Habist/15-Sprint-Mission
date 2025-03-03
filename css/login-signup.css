@@ -1,13 +1,10 @@
-.login-signup-body {
-  display: flex;
-  justify-content: center;
-}
-
 .login-signup-container {
   display: flex;
   flex-direction: column;
   width: 64rem;
-  margin: 30rem 0;
+  height: auto;
+  margin: 0 auto;
+  padding: 3rem 0; /*화면 height이 작을때 margin은 스크롤 영역에 포함되지 않기 때문에 여유가 없어보여서 padding 적용*/
 }
 
 /* login-signup header */
