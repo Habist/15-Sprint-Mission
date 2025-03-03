@@ -1,11 +1,9 @@
-*
-{
+* {
     box-sizing: 
     border-box;
     flex-wrap: wrap;
 }
-body
-{ 
+body { 
     font-family: 'Pretendard';
     background-color: #CFE5FF;
     margin: 0;
@@ -13,8 +11,7 @@ body
     height: 100%;
 }
 /* 로고와 로그인 해더 */
-header
-{
+header {
     background-color: #ffffff;
     width: 100%;
     height: 4.375rem;
@@ -25,23 +22,20 @@ header
     justify-content: space-between;
     align-items: center;
 }
-.headerbox
-{
+.headerbox {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 3.1875rem;
 } 
-.pandamarket
-{ 
+.pandamarket { 
     display: flex;
     cursor: pointer;
     width: 9.5625rem;
     height: 3.1875rem;
 }
-.login
-{
+.login {
     cursor: pointer;
     width: 8rem;
     height: 3rem;
@@ -58,8 +52,11 @@ header
     border-radius: 0.5rem;
     background-color: #3692FF;
 }
+.login:hover{
+    background-color: #1967D6;
+}
 /* 메인 태그 */
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,16 +64,14 @@ main{
     align-content: center;
 }
 /* 배너 위 아래  */
-.banner-container
-{
+.banner-container {
     width: 100%;
     height: 33.75rem;
     align-items: flex-end;
     display: flex;
     justify-content: center;
 }
-.banner-content
-{
+.banner-content {
     display: flex;
     align-items: center;
     width: 69.375rem;
@@ -84,8 +79,7 @@ main{
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.banner-text
-{
+.banner-text {
     width: 22.3125rem;
     height: 16.25rem;
     gap: 2rem;
@@ -115,15 +109,17 @@ main{
     justify-content: center;
     text-align: center;
     background-color: #3692FF;
-    color: #F9FAFB; 
+    color: #F9FAFB;
+}
+.surf-button:hover {
+    background-color: #1967D6;
 }
 .panda-image {
     width: 46.625rem;
     height: 100%;
 }
 /* 1메인 */
-.s1t-main
-{
+.s1t-main {
     width: 120rem;
     height: 45rem;
     gap: 0.625rem;    
@@ -132,8 +128,7 @@ main{
     justify-content: center;
     background-color: #FFFFFF;
 }
-.s1-space
-{
+.s1-space {
     width: 61.75rem;
     height: 27.75rem;
     gap: 4rem;
@@ -142,13 +137,11 @@ main{
     justify-content: center;
     align-items: center;
 }
-.s1-img
-{
+.s1-img {
     width: 36.1875rem;
     height: 27.75rem;
 }
-.s1-ment
-{
+.s1-ment {
     width: 18.625rem;
     height: 14.875rem;
     gap: 0.75rem;
@@ -158,8 +151,7 @@ main{
     align-items: flex-start;
     justify-content: space-evenly;
 }
-.s1-hotitem
-{
+.s1-hotitem {
     width: 100%;
     height: 1.625rem;
     font-weight: 700; 
@@ -167,16 +159,14 @@ main{
     line-height: 1.625rem;
     color: #3692ff;
 }
-.s1-best
-{
+.s1-best {
     width: 17.125rem;
     height: 12.5rem;
     gap: 1.5rem;      
     display: flex;
     flex-direction: column;
 }
-.s1-bestitem
-{
+.s1-bestitem {
     width: 13.875rem;
     height: 7rem;
     font-weight: 700;
@@ -184,8 +174,7 @@ main{
     line-height: 3.5rem;
     color: #374151;
 }
-.s1-bestcheck
-{
+.s1-bestcheck {
     width: 17.125rem;
     height: 4rem;
     font-weight: 500;
@@ -194,8 +183,7 @@ main{
     color: #374151;
 }
 /* 2메인 */
-.s2t-main
-{
+.s2t-main {
     width: 120rem;
     height: 45rem;
     gap: 0.625rem;    
@@ -204,8 +192,7 @@ main{
     justify-content: center;
     background-color: #FFFFFF;
 }
-.s2-space
-{
+.s2-space {
     width: 61.75rem;
     height: 27.75rem;
     gap: 4rem;
@@ -214,13 +201,11 @@ main{
     justify-content: center;
     align-items: center;
 }
-.s2-img
-{
+.s2-img {
     width: 36.1875rem;
     height: 27.75rem;
 }
-.s2-ment
-{
+.s2-ment {
     width: 18.625rem;
     height: 14.875rem;
     gap: 0.75rem;
@@ -231,8 +216,7 @@ main{
     justify-content: space-evenly;
     text-align: right;
 }
-.s2-hotitem
-{
+.s2-hotitem {
     width: 100%;
     height: 1.625rem;
     font-weight: 700; 
@@ -241,8 +225,7 @@ main{
     color: #3692ff;
     display: contents;
 }
-.s2-best
-{
+.s2-best {
     width: 18.3125rem;
     height: 12.5rem;
     gap: 1.5rem;      
@@ -250,8 +233,7 @@ main{
     flex-direction: column;
     
 }
-.s2-bestitem
-{
+.s2-bestitem {
     width: 18.3125rem;
     height: 7rem;
     font-weight: 700;
@@ -261,8 +243,7 @@ main{
     word-break:break-all;
 
 }
-.s2-bestcheck
-{
+.s2-bestcheck {
     width: 18rem;
     height: 4rem;
     font-weight: 500;
@@ -272,8 +253,7 @@ main{
     word-break:break-all;
 }
 /* 3메인 */
-.s3t-main
-{
+.s3t-main {
     width: 120rem;
     height: 45rem;
     gap: 0.625rem;    
@@ -282,8 +262,7 @@ main{
     justify-content: center;
     background-color: #FFFFFF;
 }
-.s3-space
-{
+.s3-space {
     width: 61.75rem;
     height: 27.75rem;
     gap: 4rem;
@@ -293,14 +272,12 @@ main{
     align-items: center;
     flex-wrap: nowrap;
 }
-.s3-img
-{
+.s3-img {
     width: 36.1875rem;
     height: 27.75rem;
     overflow: hidden;
 }
-.s3-ment
-{
+.s3-ment {
     width: 22.4375rem;
     height: 14.875rem;
     gap: 0.75rem;
@@ -310,8 +287,7 @@ main{
     align-items: flex-start;
     justify-content: space-evenly;
 }
-.s3-hotitem
-{
+.s3-hotitem {
     width: 100%;
     height: 1.625rem;
     font-weight: 700; 
@@ -319,16 +295,14 @@ main{
     line-height: 1.625rem;
     color: #3692ff;
 }
-.s3-best
-{
+.s3-best {
     width: 20.9375rem;
     height: 12.5rem;
     gap: 1.5rem;      
     display: flex;
     flex-direction: column;
 }
-.s3-bestitem
-{
+.s3-bestitem {
     width: 18.3125rem;
     height: 7rem;
     font-weight: 700;
@@ -337,8 +311,7 @@ main{
     color: #374151;
 
 }
-.s3-bestcheck
-{
+.s3-bestcheck {
     width: 20.9375rem;
     height: 4rem;
     font-weight: 500;
@@ -347,8 +320,7 @@ main{
     color: #374151;
 }
 /* 푸터 부분 */
-footer
-{
+footer {
     width: 100%;
     height: 11.25rem;
     margin: 0 auto;
@@ -360,8 +332,7 @@ footer
     gap: 0.625rem;
     background-color: #111827;
 }
-.foot-line
-{
+.foot-line {
     gap: 336.5px;
     width: 100rem;
     height: 1.25rem;
@@ -369,21 +340,18 @@ footer
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.footer-container
-{
+.footer-container {
     width: 7rem;
     height: 1.1875rem;
 }
-.footer-text
-{
+.footer-text {
     color: #9CA3AF;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.193125rem;
     text-align: left;
 }
-.footer-links
-{
+.footer-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -391,8 +359,7 @@ footer
     height: 1.1875rem;
     gap: 1.875rem;    
 }
-.footer-privacy-link
-{
+.footer-privacy-link {
     width: 6.25rem;
     height: 1.1875rem;
     font-weight: 400;
@@ -402,8 +369,7 @@ footer
     text-decoration: none;
     color: #e5e7eb;
 }
-.footer-faq-link
-{
+.footer-faq-link {
     width: 1.8125rem;
     height: 1.1875rem;
     font-weight: 400;
@@ -413,8 +379,7 @@ footer
     text-decoration: none;
     color: #E5E7EB;
 }
-.footer-sns
-{
+.footer-sns {
     display: flex;
     justify-content: space-between;
     width: 7.25rem;
@@ -424,8 +389,7 @@ footer
     padding: 0;
     flex-wrap: nowrap;
 }
-.sns-item
-{
+.sns-item {
     width: 1.25rem;
     height: 1.25rem;
     list-style-type: none;
