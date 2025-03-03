@@ -11,6 +11,10 @@ header {
   padding: 1rem 0;
   min-height: 7rem;
   border-bottom: 1px solid var(--secondary-350);
+  position: sticky;
+  top: 0;
+  background-color: white;
+  /* width: 100%; */
 }
 
 .header-content {
@@ -178,7 +182,7 @@ breakpoint: 1920px, 1024px, 768px
   }
 
   header {
-    margin: 0 200px;
+    padding: 0 200px;
   }
 
   .header-content {
@@ -192,7 +196,7 @@ breakpoint: 1920px, 1024px, 768px
   }
 
   header {
-    margin: 0 2rem;
+    padding: 0 1rem;
   }
 
   .banner {
