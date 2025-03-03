@@ -9,8 +9,7 @@ a[class*="btn"] { display: inline-block; color: var(--color1); background-color:
  [class*="btn_"]:disabled { background-color: var(--bg-disable); color: #fff; }
 .inner { display: flex; justify-content: space-between; width: 100%; max-width: 112rem; min-width: 32rem; margin: 0 auto; }
 
-a[class*="btn"]:hover{ background-color: var(--point2); }
-a[class*="btn"]:active { background-color: var(--point3); }
+
 /* -----------------------------------------------
 	[main] header
 ------------------------------------------------- */
