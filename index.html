@@ -2,9 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>판다마켓</title>
   <link rel="stylesheet" href="sprint1.2.css">
@@ -12,16 +10,16 @@
 </head>
 <body>
 <!-- 맨위에 로고랑 로그인 -->
-  <header>     
-    <div class="headerbox">      
+  <header>
+    <div class="headerbox">
         <a href="/">
         <img class="pandamarket" src="pandaicon.svg" alt="판다마켓로고">
         </a>
         <form>
         <a class="login" href="loginpage.html" type="button">
           로그인
-        </a>      
-        </form>      
+        </a>
+        </form>
     </div>
   </header>
 <!-- 메인 배너 -->
@@ -37,7 +35,7 @@
         </div>
         <div class="panda-hi">
         <img class="panda-img" src="hipanda.svg">
-        </div>    
+        </div>
       </div>
     </div>
 <!-- 메인 1번째 -->
@@ -117,38 +115,42 @@
           판다마켓 중고 거래
         </div>
       </div>
+      
       <div class="fi-hipanda">
         <img src="talking.svg">
       </div>
     </div>
   </main>
     <!-- 맨 아래 부분 -->
-  <footer class="foot-base ">
+  <footer>
+
     <div class="foot-line">
-      <div class="foot-box">
-        <div class="foot-ment">
+      <div class="footer-container">
+        <div class="footer-text">
           ©codeit - 2024 
         </div>
       </div>
-      <div class="foot-box2">          
-          <a class="foot-pri" href="/privacy">Privacy Policy</a>                
-          <a  class="foot-faq" href="/faq">FAQ</a>          
+
+      <div class="footer-links">
+        <a class="footer-privacy-link" href="/privacy">Privacy Policy</a>                
+        <a class="footer-faq-link" href="/faq">FAQ</a>
       </div>
-      <div class="foot-box3">
-        <div class="foot-face">
+
+      <ul class="footer-sns">
+        <li class="facebook sns-item">
           <a href="https://www.facebook.com/" target='_blank'><img src="img/iconFacebook.svg" alt="페이스북 아이콘"></a>
-        </div>
-        <div class="foot-twi">
+        </li>
+        <li class="twiitter sns-item">
           <a href="https://x.com/?lang=ko" target='_blank'><img src="img/iconX.svg" alt="X 아이콘(전 트위터)"></a>
-        </div>
-        <div class="foot-ytub">
+        </li>
+        <li class="youtube sns-item">
           <a href="https://www.youtube.com/?hl=ko" target='_blank'><img src="img/iconYoutube.svg" alt="유튜브 아이콘"></a>
-        </div>
-        <div class="foot-insta">
+        </li>
+        <li class="instagram sns-item">
           <a href="https://www.instagram.com/" target='_blank'><img src="img/iconInsta.svg" alt="인스타그램 아이콘"></a>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
-  </footer>    
+  </footer>
 </body>
-</html>      
+</html>
