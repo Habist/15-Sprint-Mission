@@ -19,7 +19,58 @@
   <link rel="preload" href="../resources/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 </head>
 <body>
- <h1>임시 회원가입 페이지</h1>
- 
+  <div class='wrap'>
+    <div class='login_container'>
+      <h2 class='log_tit' tabindex="0"><img src="../resources/images/common/logo_tit.png" alt="판다마켓"></h2>
+      <div class="form_wrap">
+        <form>
+          <fieldset>
+            <legend>이메일/비밀번호 입력</legend>
+            <div class="input-container">
+              <label for='email'>이메일</label>
+              <input type="email" id='email' required autocomplete="email" placeholder='이메일을 입력해 주세요'>
+            </div>
+            <div class="input-container">
+              <label for='nickname'>닉네임</label>
+              <input type="text" id='nickname' placeholder='닉네임을 입력해 주세요'>
+            </div>
+            <div class="input-container">
+              <label for="password">비밀번호</label>
+              <input type="password" id="password" autocomplete="current-password" placeholder='비밀번호를 입력해 주세요'>
+              <button type="button" class="toggle-password hide-password-icon" data-target="password"></button>
+            </div>
+            <div class="input-container">
+              <label for="confirmPassword">비밀번호 확인</label>
+              <input type="password" id="confirmPassword" autocomplete="current-password" placeholder='비밀번호를 입력해 주세요'>
+              <button type="button" class="toggle-password hide-password-icon" data-target="confirmPassword"></button>
+              <div id="error-message" class="error-message">비밀번호가 일치하지 않습니다</div>
+            </div>
+          </fieldset>
+        </form>
+        <div class="btn_set">
+          <button type="button" class="btn_login" title="선택됨">로그인</button>
+        </div>
+      </div>
+      <div class="sns_list">
+        <p><a href="#" class='link'>간편 로그인하기</a></p>
+        <div class="btn_set">
+          <a href="https://www.google.com/" class='sns_link' target='_blank'><img src="../resources/images/common/icon_goggle.png" alt="구글"> </a>
+          <a href="https://www.kakaocorp.com/page/" class='sns_link' target='_blank'><img src="../resources/images/common/icon_kakao.png" alt="카카오"> </a>
+        </div>
+      </div>
+      <p class='txt_alingC '>판다마켓이 처음이신가요? <a href="./login.html" class='link_point'>로그인</a></p>
+    </div>
+  </div>
+  <script>
+    document.querySelectorAll('.toggle-password').forEach(button => {
+      button.addEventListener('click', () => {
+        const input = document.getElementById(button.getAttribute('data-target'));
+        const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+        input.setAttribute('type', type);
+        button.classList.toggle('show-password-icon');
+        button.classList.toggle('hide-password-icon');
+      });
+    }); 
+  </script>
 </body>
 </html>

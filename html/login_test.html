@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .input-container {
+            margin-bottom: 20px;
+        }
+        .input-container input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .input-container .close-icon {
+            display: none;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        .input-container input:focus + .close-icon {
+            display: block;
+        }
+        .input-wrapper {
+            position: relative;
+        }
+    </style>
+    <title>Login Page</title>
+</head>
+<body>
+    <form>
+        <div class="input-container">
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-container">
+            <label for="password">비밀번호:</label>
+            <div class="input-wrapper">
+                <input type="password" id="password" name="password" required>
+                <img src="close-icon.png" alt="Close" class="close-icon" onclick="resetPassword()">
+            </div>
+        </div>
+        <button type="submit">로그인</button>
+    </form>
+
+    <script>
+        function resetPassword() {
+            const passwordInput = document.getElementById('password');
+            const closeIcon = document.querySelector('.close-icon');
+            passwordInput.value = '';
+            closeIcon.style.display = 'none';
+        }
+
+        const passwordInput = document.getElementById('password');
+        passwordInput.addEventListener('focus', function() {
+            const closeIcon = document.querySelector('.close-icon');
+            closeIcon.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
