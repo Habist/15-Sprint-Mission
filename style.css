@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    /* width: 1920px; */
+    /* text-align: center; */
+}
+
+/* 버튼 관련 */
+.login-button {
+    background-color: #3692FF;
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    color: #F3F4F6;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.find-items-button {
+    background-color: #3692FF;
+    width: 357px;
+    height: 56px;
+    border-radius: 40px;
+    border: 0;
+    color:#F3F4F6;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1120px;
+    height: 51px;
+    margin: 9.5px 200px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 8.6px;
+}
+
+/* main */
+/* top-banner */
+section.top-banner {
+    width: 100%;
+    height: 540px;
+    background-color: #CFE5FF;
+    display: flex;
+    justify-content: center;
+}
+
+section.top-banner > .top-banner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.top-banner-text {
+    color: #374151;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+/* hot-item */
+/* 사진이 약간 뜨는데 이유를 모르겠음 ; center를 주면 뜸
+    사진과 텍스트 양 옆 마진 주는것 외에 피그마대로 만들기가 어려움
+    상자 속 이미지 라운드 상속 안됨 why?
+    1920에서 줄어들때 다른 요소들의 크기는 그대로이나 글자가 위로 솟구침
+ */
+section.hot-item {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.hot-item > .hot-item {
+    width: 988px;
+    height: 444px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background-color: #FCFCFC;
+    border-radius: 12px;
+}
+.hot-item-text > h1 {
+    color: #3692FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.hot-item-text > h2 {
+    color: #374151;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.hot-item-text > h3 {
+    color: #374151;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+/* search */
+section.Search {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.Search > .Search {
+    width: 988px;
+    height: 444px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background-color:#FCFCFC;
+    border-radius: 12px;
+}
+.search-text > h1 {
+    color: #3692FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.search-text > h2 {
+    color: #374151;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.search-text > h3 {
+    color: #374151;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+/* register */
+section.Register {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.Register > .Register {
+    width: 988px;
+    height: 444px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background-color:#FCFCFC;
+    border-radius: 12px;
+}
+.register-text > h1 {
+    color: #3692FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.register-text > h2 {
+    color: #374151;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.register-text > h3 {
+    color: #374151;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* bottom-banner */
+section.bottom-banner {
+    width: 100%;
+    height: 540px;
+    background-color: #CFE5FF;
+    display: flex;
+    justify-content: center;
+}
+
+section.bottom-banner > .bottom-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 69px;
+    margin-top: 143px;
+}
+
+.bottom-banner-text {
+    width: 296px;
+    height: 172px;
+    color: #374151;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+/* footer */
+
+.footer-wrapper {
+    background-color: #111827;
+    width: 100%;
+    height: 160px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-box {
+    width: 1120px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    color: #9CA3AF;
+}
+
+.footer-mid {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #E5E7EB;
+    text-decoration: none;
+    cursor: pointer;
+    a:visited {
+        color: #E5E7EB;
+    }
+}
+
+.footer-mid > a {
+    text-decoration: none;
+}
+
+
+
+.footer-right-sns > a {
+    margin-right: 12px;
+    cursor: pointer;
+}
