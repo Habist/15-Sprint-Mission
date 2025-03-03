@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: Pretendard, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  height: 90vh; /* 전체 화면 높이 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: Pretendard, sans-serif;
+}
+
+.login-page {
+  width: 640px;
+  height: 618px;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.form-image {
+  width: 396px;
+  height: 132px;
+  margin: 0 auto 20px;
+}
+
+/* homepage로 돌아가기 */
+.form-image:hover {
+  cursor: pointer;
+}
+
+/* 폼 스타일 */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  width: 100%;
+  height: 98px;
+  font-weight: 700;
+  gap: 16px;
+}
+
+.form input {
+  width: 100%;
+  height: 48px;
+  padding: 12px 24px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  font-size: 16px;
+  outline: none;
+}
+
+.password-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* password */
+.password-box input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+/* password eyes */
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+/* 사용자가 동작하는지 모를 수도 있기에 hover로 색넣음 */
+.toggle-password:hover {
+  color: #3692ff;
+}
+
+/* .form input:focus {
+  border-color: #5c9eff;
+  background-color: #ffffff;
+} */
+
+/* 로그인 버튼 */
+.form button {
+  width: 100%;
+  height: 56px;
+  background-color: #3692ff;
+  color: #f3f4f6;
+  font-size: 2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form button:hover {
+  background-color: #3578e5;
+}
+
+/* 간편 로그인 스타일 */
+.easy-login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  height: 74px;
+  padding: 16px 23px;
+  background-color: #e6f2ff;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.easy-login span {
+  align-content: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.easy-login-icon {
+  display: flex;
+  width: 100px;
+  height: 42px;
+  align-content: center;
+  gap: 16px;
+}
+
+.easy-login-icon a img {
+  width: 42px;
+  height: 42px;
+}
+
+.message-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  /* 카카오톡 이나 구글 접속 하고 다시 되돌아왔을 때 스타일이 적용되지 않는 문제 해결 */
+  min-height: 24px;
+  gap: 4px;
+  margin-top: 30px;
+}
+
+/* 하단 회원가입 링크 */
+.message {
+  font-size: 1.4rem;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+.message a {
+  color: #3692ff;
+  font-weight: 500;
+  font-size: 1.4rem;
+}

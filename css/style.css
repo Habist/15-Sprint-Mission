@@ -10,6 +10,11 @@ html {
   font-size: 16px;
 }
 
+/* header fixed로 인한 contents 영역 침범으로 인한 padding-top */
+body {
+  padding-top: 70px;
+}
+
 /* 헤더 */
 header {
   display: flex;
@@ -18,6 +23,13 @@ header {
   height: 70px;
   padding: 9px 20%;
   border-bottom: 1px solid #dfdfdf;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
 }
 
 /* 헤더 이미지 */
@@ -48,10 +60,9 @@ header {
   background-color: #cfe5ff;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
   gap: 2rem;
   width: 100%;
-  /* height: 400px; */
+  z-index: 11;
 }
 
 /* 상단/하단 배너 요소의 박스요소 스타일 적용  */

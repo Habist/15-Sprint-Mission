@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/css/account.css" />
+    <!-- pretendard -->
     <link
       rel="stylesheet"
       as="style"
@@ -25,7 +26,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       crossorigin="anonymous"
     />
-    <title>Login</title>
+    <title>signup</title>
   </head>
   <body>
     <div class="login-page">
@@ -36,14 +37,24 @@
           class="form-image"
           onclick="goHomepage()"
         />
-        <form class="login-form">
-          <label for="form-email">
+        <form class="submit-form">
+          <label for="submit-email">
             이메일
             <input
               type="text"
               name="userEmail"
               placeholder="codeit@email.com"
               id="form-email"
+            />
+          </label>
+
+          <label for="submit-name">
+            닉네임
+            <input
+              type="text"
+              name="userName"
+              placeholder="panda"
+              id="form-name"
             />
           </label>
 
@@ -56,10 +67,31 @@
                 placeholder="password"
                 id="form-password"
               />
-              <i class="fa-regular fa-eye toggle-password"></i>
+              <i
+                class="fa-regular fa-eye toggle-password"
+                onclick="togglePasswordVisibility('form-password', this)"
+              ></i>
             </div>
           </label>
-          <button>로그인</button>
+
+          <label for="form-password-check"
+            >비밀번호확인
+            <div class="password-box">
+              <input
+                type="password"
+                name="userPassword"
+                placeholder="password"
+                id="form-password-check"
+              />
+              <i
+                class="fa-regular fa-eye toggle-password"
+                onclick="togglePasswordVisibility('form-password-check', this)"
+              ></i>
+            </div>
+          </label>
+
+          <button>회원가입</button>
+
           <div class="easy-login">
             <span>간편 로그인 하기</span>
             <div class="easy-login-icon">
@@ -76,8 +108,8 @@
           </div>
           <div class="message-box">
             <p class="message">
-              판다마켓이 처음이신가요?
-              <a href="/html/signup.html">회원가입</a>
+              이미 회원이신가요?
+              <a href="/html/login.html">로그인</a>
             </p>
           </div>
         </form>
