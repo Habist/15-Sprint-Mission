@@ -82,7 +82,6 @@ button {
   border: none;
 }
 
-a:hover,
 button:hover {
   background-color: var(--primary-200);
 }

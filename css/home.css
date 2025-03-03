@@ -47,6 +47,10 @@ footer {
   color: white;
 }
 
+.login-button:hover {
+  background-color: var(--primary-200);
+}
+
 /* banner */
 .banner-img {
   max-height: 34rem;
