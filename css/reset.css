@@ -31,6 +31,11 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
+}
+
+button {
+  outline: none;
 }
 
 table {
