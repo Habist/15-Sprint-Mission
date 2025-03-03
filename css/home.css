@@ -5,21 +5,18 @@ footer {
   margin: 0 auto;
 }
 
-header {
+.home-header {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
   min-height: 7rem;
   background-color: white;
-}
-
-.home-header {
   border-bottom: 1px solid var(--secondary-350);
   position: sticky;
   top: 0;
 }
 
-.header-content {
+.home-header-content {
   max-width: 110rem;
   width: 100%;
   display: flex;
@@ -36,7 +33,7 @@ header {
   width: 4rem;
 }
 
-header h2 {
+.home-header h2 {
   font-weight: 900;
   color: var(--primary-100);
   margin-left: 1rem;
@@ -46,6 +43,8 @@ header h2 {
   padding: 1.3rem 4rem;
   font-size: 1.2rem;
   border-radius: 8px;
+  background-color: var(--primary-100);
+  color: white;
 }
 
 /* banner */
@@ -179,25 +178,17 @@ breakpoint: 1920px, 1024px, 768px
 */
 
 @media (max-width: 1919px) {
-  html {
-    font-size: 9px;
-  }
-
-  header {
+  .home-header {
     padding: 0 200px;
   }
 
-  .header-content {
+  .home-header-content {
     max-width: none;
   }
 }
 
 @media (max-width: 1024px) {
-  html {
-    font-size: 8px;
-  }
-
-  header {
+  .home-header {
     padding: 0 1rem;
   }
 
@@ -241,7 +232,7 @@ breakpoint: 1920px, 1024px, 768px
 }
 
 @media (max-width: 768px) {
-  .logo {
+  .home-header .logo {
     display: none;
   }
 

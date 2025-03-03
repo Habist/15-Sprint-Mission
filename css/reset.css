@@ -64,9 +64,7 @@ select {
   -moz-appearance: none;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
+input,
 textarea {
   width: 100%;
   line-height: 1.5;

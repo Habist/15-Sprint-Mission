@@ -1,0 +1,122 @@
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 64rem;
+}
+
+/* login header */
+.login-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.login-header .logo {
+  width: 10rem;
+}
+
+.login-header h2 {
+  font-weight: 900;
+  color: var(--primary-100);
+  font-size: 6rem;
+  margin-left: 2rem;
+}
+
+/* login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+input {
+  background-color: var(--secondary-100);
+  border-radius: 12px;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-left: 2.4rem;
+}
+
+.register-button {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  padding: 1.2rem;
+  border-radius: 40px;
+}
+
+/* password visibility */
+.password-input {
+  position: relative;
+}
+
+.password-visibility {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 50%;
+  right: 2.4rem;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+.password-visibility:hover {
+  background-color: transparent;
+}
+
+/* oauth container */
+.oauth-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 2.3rem;
+  background-color: var(--primary-0);
+  border-radius: 8px;
+}
+
+.oauth-container p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--secondary-800);
+}
+
+.oauth-site {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.oauth-container a {
+  display: inline-block;
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+/* to signup */
+.switch {
+  color: var(--secondary-800);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.switch-button {
+  color: var(--primary-100);
+  text-decoration: underline;
+}

@@ -11,35 +11,64 @@
     />
     <link rel="icon" href="/images/panda_face.svg" type="image/svg" />
     <link rel="stylesheet" href="../index.css" />
-    <title>로그인</title>
+    <title>판다마켓 로그인</title>
   </head>
   <body class="login-body">
-    <header class="login-header">
-      <div class="logo-container">
-        <img src="../images/panda_face.svg" alt="logo" class="logo" />
-        <a href="/"><h2>판다마켓</h2></a>
-        <form action="">
-          <div class="input-container">
-            <label for="email">이메일</label>
-            <input type="email" id="email" name="email" />
+    <div class="login-container">
+      <header class="login-header">
+        <div class="logo-container">
+          <img src="../images/panda_face.svg" alt="logo" class="logo" />
+          <a href="/"><h2>판다마켓</h2></a>
+        </div>
+      </header>
+
+      <form action="" class="login-form">
+        <div class="input-container">
+          <label for="email">이메일</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="이메일을 입력해주세요"
+          />
+        </div>
+        <div class="input-container">
+          <label for="password">비밀번호</label>
+          <div class="password-input">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="비밀번호를 입력해주세요"
+            />
+            <button class="password-visibility" type="button">
+              <img
+                src="../images/close_eye_grey.svg"
+                alt="closed eye icon"
+                class="close-eye"
+              />
+            </button>
           </div>
-          <div class="input-container">
-            <label for="password">비밀번호</label>
-            <input type="password" id="password" name="password" />
-          </div>
-          <button type="submit" class="login-button">로그인</button>
-          <div class="oauth-container">
-            간편 로그인하기
-            <a href="/auth/google" class="oauth-button">
+        </div>
+
+        <button type="submit" class="register-button">로그인</button>
+
+        <div class="oauth-container">
+          <p>간편 로그인하기</p>
+          <div class="oauth-site">
+            <a href="https://www.google.com" class="oauth-button">
               <img src="../images/google_logo.svg" alt="google login button" />
             </a>
-            <a href="/auth/kakao" class="oauth-button">
+            <a href="https://www.kakaocorp.com" class="oauth-button">
               <img src="../images/kakao_logo.svg" alt="kakao login button" />
             </a>
           </div>
-          <a href="/signup" class="signup-button">회원가입</a>
-        </form>
-      </div>
-    </header>
+        </div>
+        <div class="switch">
+          판다마켓이 처음이신가요?&nbsp;
+          <a href="../html/signup.html" class="switch-button">회원가입</a>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
