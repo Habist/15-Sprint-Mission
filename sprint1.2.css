@@ -1,6 +1,9 @@
-*{box-sizing: border-box;
-flex-wrap: wrap;}
-html
+*
+{
+    box-sizing: 
+    border-box;
+    flex-wrap: wrap;
+}
 body
 { 
     font-family: 'Pretendard';
@@ -9,6 +12,7 @@ body
     width: 100%;
     height: 100%;
 }
+/* 로고와 로그인 해더 */
 header
 {
     background-color: #ffffff;
@@ -20,13 +24,6 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
 }
 .headerbox
 {
@@ -61,7 +58,16 @@ main{
     border-radius: 0.5rem;
     background-color: #3692FF;
 }
-.benner-base
+/* 메인 태그 */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+/* 배너 위 아래  */
+.banner-container
 {
     width: 100%;
     height: 33.75rem;
@@ -69,15 +75,16 @@ main{
     display: flex;
     justify-content: center;
 }
-.benner-basic
+.banner-content
 {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 69.375rem;
     height: 21.25rem;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
-.benner-left
+.banner-text
 {
     width: 22.3125rem;
     height: 16.25rem;
@@ -86,7 +93,7 @@ main{
     flex-direction: column;
 
 }
-.benner-ment {
+.banner-message {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.5rem;
@@ -94,7 +101,7 @@ main{
     height: 7rem;
     color: #374151;
 }
-.surfinggo {
+.surf-button {
     width: 22.3125rem;
     height: 3.5rem;
     gap: 0.625rem;
@@ -110,15 +117,10 @@ main{
     background-color: #3692FF;
     color: #F9FAFB; 
 }
-.panda-hi {
+.panda-image {
     width: 46.625rem;
-    height: 21.25rem;
+    height: 100%;
 }
-.panda-img {
-    width: 46.625rem;
-    height: 21.25rem;
-}
-
 /* 1메인 */
 .s1t-main
 {
@@ -344,41 +346,7 @@ main{
     line-height: 2rem;
     color: #374151;
 }
-/* 아래 배너 */
-.final-shot
-{
-    width: 120rem;
-    height: 33.75rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 4.3125rem;
-}
-.fi-mentbox
-{   
-    width: 18.4375rem;
-    height: 24.8125rem;
-    gap: 0.625rem;    
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-.fi-ment
-{
-    width: 18.4375rem;
-    height: 10.75rem;
-    font-weight: 700;
-    font-size: 2.3rem;
-    line-height: 3.5rem;
-    color: #374151;
-}
-.fi-hipanda
-{
-    width: 46.625rem;
-    height: 24.8125rem;
-    
-}
-/* 맨 아래 */
+/* 푸터 부분 */
 footer
 {
     width: 100%;
