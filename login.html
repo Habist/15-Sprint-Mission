@@ -10,39 +10,37 @@
     <title>판다마켓 : 로그인</title>
 </head>
 <body>
-    <section class="form">
+    <form class="form">
         <a class="form__logo-link" href="/">
-            <img class="form__logo" src="images/logo/logo.png" alt="logo">
+            <img class="form__logo" src="images/logo/logo.png" alt="판다마켓 링크 로고">
         </a>
-        <form class="form__body">
-            <label class="form__label" for="email">이메일</label>
-            <input class="form__input" id="email" type="email" name="email" placeholder="">
-            <label class="form__label" for="password">비밀번호</label> 
-            <div class="form__password-input">
-                <input class="form__input" id="password" type="password" name="password" placeholder="">
-                <i class="form__input-icon"></i>
-            </div>
-            <button class="form__button" type="submit">로그인</button>
-            <div class="form__sns">
-                <p class="form__sns-title">간편 로그인 하기</p>
-                <ul class="form__sns-list">
-                    <li class="form__sns-item">
-                        <a class="form__sns-link" href="https://www.google.com/">
-                            <img class="form__sns-icon" src="images/icon/ic_google.png" alt="google">
-                        </a>
-                    </li>
-                    <li class="form__sns-item">
-                        <a class="form__sns-link" href="https://www.kakaocorp.com/page/">
-                            <img class="form__sns-icon" src="images/icon/ic_kakaotalk.png" alt="kakao">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <p class="form__footer">
-                판다마켓이 처음이신가요? 
-                <a class="form__footer-link" href="signup.html">회원가입</a>
-            </p>
-        </form>
-    </section>
+        <label class="form__label" for="email">이메일</label>
+        <input class="form__input" id="email" type="email" name="email" placeholder="">
+        <label class="form__label" for="password">비밀번호</label> 
+        <div class="form__password-input">
+            <input class="form__input" id="password" type="password" name="password" placeholder="">
+            <i class="form__input-icon"></i>
+        </div>
+        <button class="form__button" type="submit">로그인</button>
+        <div class="form__sns">
+            <p class="form__sns-title">간편 로그인 하기</p>
+            <ul class="form__sns-list">
+                <li class="form__sns-item">
+                    <a class="form__sns-link" href="https://www.google.com/">
+                        <img class="form__sns-icon" src="images/icon/ic_google.png" alt="google 페이지 이동">
+                    </a>
+                </li>
+                <li class="form__sns-item">
+                    <a class="form__sns-link" href="https://www.kakaocorp.com/page/">
+                        <img class="form__sns-icon" src="images/icon/ic_kakaotalk.png" alt="kakao 페이지 이동">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="form__footer">
+            판다마켓이 처음이신가요? 
+            <a class="form__footer-link" href="signup.html">회원가입</a>
+        </p>
+    </form>
 </body>
 </html>
