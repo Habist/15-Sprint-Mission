@@ -1,20 +1,22 @@
 .login-signup-body {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .login-signup-container {
   display: flex;
   flex-direction: column;
   width: 64rem;
+  margin: 30rem 0;
 }
 
-/* login header */
+/* login-signup header */
 .login-signup-header {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
+  width: 100%;
 }
 
 .login-signup-header .logo {
@@ -107,7 +109,7 @@ input {
   height: 4.2rem;
 }
 
-/* to signup */
+/* switch */
 .switch {
   color: var(--secondary-800);
   font-size: 1.4rem;
