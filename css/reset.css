@@ -117,7 +117,7 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 2px solid var(--primary-300);
+  outline: none;
 }
 
 img {
