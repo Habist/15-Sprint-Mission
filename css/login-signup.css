@@ -1,35 +1,35 @@
-.login-body {
+.register-body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login-container {
+.register-container {
   display: flex;
   flex-direction: column;
   width: 64rem;
 }
 
 /* login header */
-.login-header {
+.register-header {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
 }
 
-.login-header .logo {
+.register-header .logo {
   width: 10rem;
 }
 
-.login-header h2 {
+.register-header h2 {
   font-weight: 900;
   color: var(--primary-100);
   font-size: 6rem;
   margin-left: 2rem;
 }
 
-/* login form */
-.login-form {
+/* register form */
+.register-form {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
