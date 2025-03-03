@@ -3,12 +3,11 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  margin: 231px auto 0;
   display: flex;
   justify-content: center;
 }
 main {
-  margin: 14.4375rem 40rem;
   width: 40rem;
   height: 27.875rem;
   display: flex;
@@ -22,7 +21,6 @@ main {
   height: 132px;
 }
 form {
-  box-sizing: border-box;
   width: 640px;
   height: 446px;
   display: flex;
