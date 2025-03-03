@@ -1,3 +1,4 @@
+@import url("./color.css");
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 * {
   font-family: "Pretendard Variable", Pretendard, -apple-system,
@@ -6,7 +7,7 @@
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 button {
-  background-color: #3692ff;
+  background-color: var(--primary);
 }
 button:hover {
   cursor: pointer;
@@ -39,7 +40,7 @@ nav img {
 nav > button {
   padding: 0.8em 2em;
   border-radius: 8px;
-  background: #3692ff;
+  background: var(--primary);
   font-size: 1em;
 }
 nav > button > a {
@@ -69,7 +70,7 @@ nav > button > a {
 }
 #banner-content {
   position: relative;
-  bottom: 0;
+  bottom: -4em;
 }
 .banner h1 {
   font-size: 2.5em;
@@ -77,8 +78,12 @@ nav > button > a {
   line-height: 1.5;
 }
 .banner button {
+  margin-top: 2.75em;
   padding: 0.8em 6em;
   border-radius: 999px;
+  width: 100%;
+  font-size: 1.25em;
+  font-weight: 600;
 }
 .banner > div > button > a {
   color: white;
@@ -101,7 +106,7 @@ nav > button > a {
 
 .card-title {
   font-size: 1.1em;
-  color: #3692ff;
+  color: var(--primary);
   font-weight: 700;
 }
 
