@@ -3,6 +3,7 @@
 }
 
 body {
+  margin: 0;
   font-family: 'Pretendard', sans-serif;
 }
 
@@ -20,11 +21,11 @@ body {
   width: 153px;
 }
 
-.logo,#login {
+.logo, .login {
   cursor: pointer;
 }
 
-#login {
+.login {
   width: 128px;
   height: 48px;
   display: flex;
@@ -37,7 +38,7 @@ body {
   text-decoration: none;
 }
 
-#login:hover {
+.login:hover {
   background-color: #1967D6;
 }
 
@@ -78,7 +79,7 @@ body {
   color: #374151;
 }
 
-#explore-button {
+.explore-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +96,7 @@ body {
   text-decoration: none;
 }
 
-#explore-button:hover {
+.explore-button:hover {
   background-color: #1967D6;
 }
 
@@ -127,7 +128,10 @@ body {
 .content-text {
   width: 298px;
   height: 238px;
+}
 
+.content-text-right {
+  text-align: right;
 }
 
 .content-card img {
@@ -168,17 +172,17 @@ body {
   background-color: #CFE5FF;
 }
 
-.cf-content {
+.content-footer-content {
   display: flex;
   align-items: center;
 }
 
-.cf-img {
+.content-footer-img {
   width: 746px;
   height: 397px;
 }
 
-.cf-text {
+.content-footer-text {
   width: 295px;
   height: 172px;
 
@@ -204,17 +208,17 @@ footer {
   color: #E5E7EB;
 }
 
-#footer-content {
+.footer-content {
   display: flex;
   gap: 30px;
   color: #e5e7eb;
 }
 
-#sns-link {
+.sns-link {
   display: flex;
   gap: 12px;
 }
 
-.footer-menu, #sns-link a,.logo,#login, #explore-button {
+.footer-menu, .sns-link a, .logo, .login, .explore-button {
     cursor: pointer;
 }
