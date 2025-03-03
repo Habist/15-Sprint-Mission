@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link rel="icon" href="/images/panda_face.svg" type="image/svg" />
+    <link rel="stylesheet" href="../index.css" />
+    <title>로그인</title>
+  </head>
+  <body class="login-body">
+    <header class="login-header">
+      <div class="logo-container">
+        <img src="../images/panda_face.svg" alt="logo" class="logo" />
+        <a href="/"><h2>판다마켓</h2></a>
+        <form action="">
+          <div class="input-container">
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="input-container">
+            <label for="password">비밀번호</label>
+            <input type="password" id="password" name="password" />
+          </div>
+          <button type="submit" class="login-button">로그인</button>
+          <div class="oauth-container">
+            간편 로그인하기
+            <a href="/auth/google" class="oauth-button">
+              <img src="../images/google_logo.svg" alt="google login button" />
+            </a>
+            <a href="/auth/kakao" class="oauth-button">
+              <img src="../images/kakao_logo.svg" alt="kakao login button" />
+            </a>
+          </div>
+          <a href="/signup" class="signup-button">회원가입</a>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
