@@ -53,18 +53,19 @@
    width: 100%;
    position: relative;
 }
-.form__input-icon{
+.form__password-toggle{
+   position: absolute;
+   display: inline;
    background-image: url('/images/icon/ic_visibility_off.svg');
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
    width: 24px;
    height: 24px;
-   position: absolute;
    top: 34%;
    right: 5%;
 }
-.form__input-icon--password-confirm{
+.password-confirm{
    background-image: url('/images/icon/ic_visibility_on.svg');
 }
 
