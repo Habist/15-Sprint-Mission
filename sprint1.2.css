@@ -126,141 +126,7 @@ main {
     align-items: center;
     justify-content: center;
 }
-/* .s2t-main {
-    width: 100%;
-    height: 45rem;
-    gap: 0.625rem;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
- /* .s3t-main {
-    width: 100%;
-    height: 45rem;
-    gap: 0.625rem;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-.s1-space {
-    width: 61.75rem;
-    height: 27.75rem;
-    gap: 4rem;
-    border-radius: 0.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section-image {
-    width: 36.1875rem;
-    height: auto;
-}
-.s1-ment {
-    width: 18.625rem;
-    height: 14.875rem;
-    gap: 0.75rem;
-    padding-right: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-.s1-hotitem {
-    width: 100%;
-    height: 1.625rem;
-    font-weight: 700; 
-    font-size: 1.125rem;
-    line-height: 1.625rem;
-    color: #3692ff;
-}
-.s1-best {
-    width: 17.125rem;
-    height: 12.5rem;
-    gap: 1.5rem;      
-    display: flex;
-    flex-direction: column;
-}
-.s1-bestitem {
-    width: 13.875rem;
-    height: 7rem;
-    font-weight: 700;
-    font-size: 2.3rem;
-    line-height: 3.5rem;
-    color: #374151;
-}
-.s1-bestcheck {
-    width: 17.125rem;
-    height: 4rem;
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    color: #374151;
-}
-/* 2메인 */
-
-.s2-space {
-    width: 61.75rem;
-    height: 27.75rem;
-    gap: 4rem;
-    border-radius: 0.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.s2-img {
-    width: 36.1875rem;
-    height: 27.75rem;
-}
-.s2-ment {
-    width: 18.625rem;
-    height: 14.875rem;
-    gap: 0.75rem;
-    padding-left: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    text-align: right;
-}
-.s2-hotitem {
-    width: 100%;
-    height: 1.625rem;
-    font-weight: 700; 
-    font-size: 1.125rem;
-    line-height: 1.625rem;
-    color: #3692ff;
-    display: contents;
-}
-.s2-best {
-    width: 18.3125rem;
-    height: 12.5rem;
-    gap: 1.5rem;      
-    display: flex;
-    flex-direction: column;
-    
-}
-.s2-bestitem {
-    width: 18.3125rem;
-    height: 7rem;
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 3.5rem;
-    color: #374151;
-    word-break:break-all;
-
-}
-.s2-bestcheck {
-    width: 18rem;
-    height: 4rem;
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2rem;
-    color: #374151;
-    word-break:break-all;
-}
-/* 3메인 */
-
-.s3-space {
+.section-content {
     width: 61.75rem;
     height: 27.75rem;
     gap: 4rem;
@@ -270,53 +136,47 @@ main {
     align-items: center;
     flex-wrap: nowrap;
 }
-.s3-img {
+.section-image {
     width: 36.1875rem;
-    height: 27.75rem;
-    overflow: hidden;
+    height: auto;
 }
-.s3-ment {
-    width: 22.4375rem;
+.section-text {
+    width: auto;
     height: 14.875rem;
     gap: 0.75rem;
-    padding-right: 1.5rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-evenly;
 }
-.s3-hotitem {
-    width: 100%;
+.card-title {
     height: 1.625rem;
     font-weight: 700; 
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #3692ff;
 }
-.s3-best {
-    width: 20.9375rem;
+.text-card-info {
     height: 12.5rem;
     gap: 1.5rem;      
     display: flex;
     flex-direction: column;
 }
-.s3-bestitem {
-    width: 18.3125rem;
+.best-item-title {
     height: 7rem;
     font-weight: 700;
-    font-size: 2.38rem;
+    font-size: 2.5rem;
     line-height: 3.5rem;
     color: #374151;
-
 }
-.s3-bestcheck {
-    width: 20.9375rem;
+.best-item-description {
+
     height: 4rem;
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 2rem;
     color: #374151;
 }
+
 /* 푸터 부분 */
 footer {
     width: 100%;
