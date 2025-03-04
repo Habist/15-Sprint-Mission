@@ -1,0 +1,168 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Pretendard, sans-serif;
+  word-break: keep-all;
+}
+
+.blue-section {
+  background-color: #CFE5FF;
+}
+
+.all {
+  margin: 0 200px;
+
+}
+
+.title-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0; 
+}
+
+.login {
+  border: none;
+  height: 42px;
+  width: 88px;
+  border-radius: 8px;
+  padding: 12px 23px;
+  background-color: #3692FF;
+  
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-link {
+  color: #F3F4F6;
+  text-decoration: none;
+}
+
+.title-logo {
+  height: 51px;
+  width: 153px;
+}
+
+.Nemo {
+  padding: 200px 200px 0;
+  display: flex;
+  justify-content: center;
+  max-width: 1110px;
+  margin: auto;
+} /*padding 실수한 거 같은데, 빼면 비율이 이상해집니다. 도저히 모르겠어서 수정하지 못했습니다.*/
+
+.miniNemo {
+  margin: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #374151;
+}
+
+.button-buy {
+  border: none;
+  width: 357px;
+  height: 56px;
+  border-radius: 40px;
+  background-color: #3692FF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F9FAFB;
+}
+
+.panda-pic {
+  width: 100%;
+  max-width: 746px;
+  height: 340px;
+}
+
+.nemonemo {
+  width: 988px;
+  height: 444px;
+  display: flex;
+  margin: 138px auto;
+  gap: 64px;  
+  justify-content: space-between;
+}
+
+.main-pic {
+  width: 579px;
+  height: 444px;
+}
+
+.headPoint {
+  color: #3692FF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #374151;
+}
+
+.greeting-panda-pic {
+  max-width: 746px;
+  width: 100%;
+  height: 397px;
+}
+
+footer {
+  background-color: #111827;
+}
+
+.foot {
+  padding: 32px 200px 80px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.codeit-2024 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+  color: #9CA3AF;
+  text-align: center;
+}
+
+.privacyPolicy-FAQ {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+  text-align: center;
+  gap: 30px;
+}
+
+.link-line {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.sns-link {
+  display: flex;
+  gap: 12px;
+}
+
+.link-logo {
+  width: 20px;
+  height: 20px;
+}
