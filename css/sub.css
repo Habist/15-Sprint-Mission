@@ -12,6 +12,9 @@
   width: 396px;
   margin-inline: auto;
 }
+.login-logo img {
+  width: 100%;
+}
 .login-form {
   display: flex;
   flex-direction: column;
@@ -21,6 +24,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  position: relative;
 }
 .login-form li label {
   color: var(--gray800);
@@ -52,7 +56,7 @@
   display: flex;
   align-items: center;
   padding: 16px 24px;
-  background-color: #E6F2FF;
+  background-color: #e6f2ff;
   justify-content: space-between;
 }
 .login-sns p {
@@ -69,6 +73,9 @@
   width: 42px;
   display: block;
 }
+.login-sns ul li a img{
+  width: 100%;
+}
 .login-signup {
   color: var(--gray800);
   font-size: 14px;
@@ -82,4 +89,66 @@
   color: var(--blue);
   text-decoration-line: underline;
   text-underline-offset: 2px;
+}
+.toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 24px;
+  bottom: 28px;
+  transform: translateY(50%);
+}
+
+@media all and (max-width: 640px) {
+  .login-page {
+    padding-block: 35.94vw;
+  }
+  .login-logo {
+    margin-bottom: 8.59vw;
+    width: 61.88vw;
+  }
+  .login-page .inner03 {
+    gap: 5vw;
+  }
+  .login-form li {
+    gap: 3.75vw;
+  }
+  .login-form li label {
+    font-size: 4.06vw;
+  }
+  .login-form li input[type='text'],
+  .login-form li input[type='password'] {
+    height: 12.5vw;
+    padding-inline: 3.44vw;
+    font-size: 3.75vw;
+  }
+  .toggle-password {
+    right: 3.44vw;
+    bottom: 6.2vw;
+    transform: translateY(50%);
+    padding: 0;
+  }
+  .toggle-password img {
+    max-width: 4.69vw;
+  }
+  .login-sns {
+    padding: 2.5vw 3.75vw;
+  }
+  .login-btn {
+    font-size: 4.38vw;
+    height: 12.5vw;
+  }
+  .login-sns p {
+    font-size: 3.75vw;
+  }
+  .login-sns ul {
+    gap: 3.13vw;
+  }
+  .login-sns ul li a {
+    width: 9.38vw;
+  }
+  .login-signup {
+    font-size: 3.44vw;
+  }
 }

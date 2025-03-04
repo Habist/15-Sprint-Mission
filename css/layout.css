@@ -51,6 +51,14 @@
     margin-inline: 3.23vw;
   }
 }
+@media all and (max-width: 768px) {
+  .login-page .inner03 {
+    width: auto;
+    max-width: none;
+    margin-inline: 3.13vw;
+  }
+}
+
 @media all and (max-width: 425px) {
   .inner,
   .inner02 {
