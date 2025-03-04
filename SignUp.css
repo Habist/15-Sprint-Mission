@@ -80,6 +80,7 @@ form {
   line-height: 1.625rem;
 }
 .login-sites{
+  display: flex;
   gap: 16px;
   width: 100px;
 }

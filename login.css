@@ -72,7 +72,7 @@ form {
   align-items: center;
   border-radius: 0.5rem;
   gap: 0.625rem;
-  padding: 0 1.4375rem;
+  padding:1rem 1.4375rem;
 }
 .easy-text{
   font-weight: 500;
@@ -80,6 +80,7 @@ form {
   line-height: 1.625rem;
 }
 .login-sites{
+  display: flex;
   gap: 16px;
   width: 100px;
 }
