@@ -31,6 +31,7 @@ body {
 .login-form {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 100%;
   gap: 1rem;
   font-weight: 700;
@@ -45,6 +46,12 @@ body {
     background-color: #3692ff;
     color: white;
     border-radius: 40px;
+  }
+  #no-eye {
+    position: absolute;
+    width: 2.5%;
+    right: 2%;
+    bottom: 30%;
   }
 }
 
