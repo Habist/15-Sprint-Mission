@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>판다마켓</title>
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="/">
-          <img src="./img/Property 1=lg.png" alt="logo" />
+          <img src="./img/logo.png" alt="logo" />
         </a>
         <button><a href="./login.html">로그인</a></button>
       </nav>
@@ -27,7 +33,7 @@
       <main>
         <section class="card-box">
           <div class="card">
-            <img src="./img/Img_home_01.png" alt="hot-item-image" />
+            <img src="./img/home_hotItem.png" alt="hot-item-image" />
             <div>
               <span class="card-title">Hot item</span>
               <h2>인기 상품을<br />확인해 보세요</h2>
@@ -48,12 +54,12 @@
                 쉽게 찾아보세요
               </p>
             </div>
-            <img src="./img/Img_home_02.png" alt="search-image" />
+            <img src="./img/home_search.png" alt="search-image" />
           </div>
         </section>
         <section class="card-box">
           <div class="card">
-            <img src="./img/Img_home_03.png" alt="" />
+            <img src="./img/home_add.png" alt="" />
             <div>
               <span class="card-title">Register</span>
               <h2>판매를 원하는<br />상품을 등록하세요</h2>
@@ -72,20 +78,28 @@
           <span class="info"><a href="./privacy.html">Privacy Policy</a></span>
           <span class="info"><a href="./faq.html">FAQ</a></span>
         </div>
-        <div>
-          <a href="https://www.facebook.com/?locale=ko_KR" target="_blank">
-            <img class="sns" src="./img/ic_facebook.png" alt="facebook" />
-          </a>
-          <a href="https://x.com/" target="_blank">
-            <img class="sns" src="./img/ic_twitter.png" alt="twitter" />
-          </a>
-          <a href="https://www.youtube.com" target="_blank">
-            <img class="sns" src="./img/ic_youtube.png" alt="youtube" />
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img class="sns" src="./img/ic_instagram.png" alt="instagram" />
-          </a>
-        </div>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/?locale=ko_KR" target="_blank">
+              <img class="sns" src="./img/ic_facebook.png" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/" target="_blank">
+              <img class="sns" src="./img/ic_twitter.png" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img class="sns" src="./img/ic_youtube.png" alt="youtube" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="sns" src="./img/ic_instagram.png" alt="instagram" />
+            </a>
+          </li>
+        </ul>
       </footer>
     </div>
   </body>
