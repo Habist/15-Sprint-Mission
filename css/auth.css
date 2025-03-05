@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: "Pretendard", sans-serif;
+}
+
+:root {
+  --gray900: #111827;
+  --gray800: #1f2947;
+  --gray700: #374151;
+  --gray600: #4b5563;
+  --gray500: #6b7280;
+  --gray400: #9ca3af;
+  --gray200: #e5e7eb;
+  --gray100: #f3f4f6;
+  --gray50: #f9fafb;
+  --blue: #3692ff;
+  --hover-botton: #1967D6;
+  --white: #ffffff;
+  --background: #CFE5FF;
+  --skyblue: #e6f2ff;
+}
+
+html {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.body_login {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+
+  width: 64rem;
+  height: 61.8rem;
+}
+
+.body_signup {
+  margin-top: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+
+  width: 64rem;
+  height: 100%;
+
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+  width: 39.6rem;
+  height: 13.2rem;
+
+  margin: 0 12.2rem 4rem 12.2rem;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ gap: 2.4rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+input{
+  width: 64rem;
+  height: 5.6rem;
+
+  background-color: var(--gray100);
+  border: 2px solid var(--gray100);
+  border-radius: 1.2rem;
+
+  font-size: 1.6rem;
+  font-weight: 40rem;
+
+  padding: 1.6rem 2.4rem;
+}
+
+button {
+  width: 64rem;
+  height: 5.6rem;
+
+  background-color: var(--blue);
+  color: var(--white);
+
+  font-size: 2rem;
+  font-weight: 60rem;
+
+  border: 2px solid var(--blue);
+  border-radius: 4rem;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+
+  padding-bottom: 10rem;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.pw-content {
+  position:relative;
+  display: flex;
+  align-items: center;
+}
+
+.eye_icon {
+  position: absolute;
+  right: 1.6rem;
+}
+
+.social-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 2.3rem;
+
+  background-color: var(--skyblue);
+
+  width: 64rem;
+  height: 7.4rem;
+
+  border: 2px solid var(--skyblue);
+  border-radius: 0.8rem;
+}
+
+.social-login span {
+  font-size: 1.6rem;
+  font-weight: 50rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+
+  width: 10rem;
+  height: 4.2rem;
+}
+
+.sign_up {
+  font-size: 1.4rem;
+  font-weight: 50rem;
+}
+
+.sign_up a {
+  color: var(--blue);
+}
