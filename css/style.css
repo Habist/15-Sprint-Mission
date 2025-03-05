@@ -5,7 +5,7 @@
 @import "pages/main/components/nav.css";
 @import "pages/main/components/banner.css";
 @import "pages/main/components/articles.css";
-@import "pages/maincomponents/footer.css";
+@import "pages/main/components/footer.css";
 @import "pages/login/login.css";
 
 * {
@@ -14,4 +14,5 @@
 
 body {
   font-family: "Pretendard Variable";
+  height: 100vh;
 }

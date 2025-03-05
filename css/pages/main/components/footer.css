@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  width: 100%;
   justify-content: center;
   height: 15rem;
   background-color: #111827;
