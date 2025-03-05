@@ -32,20 +32,12 @@ html {
     html {
         font-size: 5px;
     }
-
-    nav {
-        padding: 0 100px;
-    }
 }
 
 /* 모바일 (480px 이하) */
 @media screen and (max-width: 480px) {
     html {
         font-size: 3px;
-    }
-
-    nav {
-        padding: 0 50px;
     }
 }
 
