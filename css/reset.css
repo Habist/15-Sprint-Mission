@@ -1,5 +1,3 @@
-/* 브라우저 내장 스타일을 초기화하는 코드 */
-
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +31,11 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
+}
+
+button {
+  outline: none;
 }
 
 table {
@@ -66,9 +69,7 @@ select {
   -moz-appearance: none;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
+input,
 textarea {
   width: 100%;
   line-height: 1.5;
@@ -116,7 +117,7 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 2px solid var(--primary-300);
+  outline: none;
 }
 
 img {

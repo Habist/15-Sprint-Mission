@@ -1,17 +1,22 @@
 /* header */
+header,
 main,
 footer {
   margin: 0 auto;
 }
 
-header {
+.home-header {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
   min-height: 7rem;
+  background-color: white;
+  border-bottom: 1px solid var(--secondary-350);
+  position: sticky;
+  top: 0;
 }
 
-.header-content {
+.home-header-content {
   max-width: 110rem;
   width: 100%;
   display: flex;
@@ -28,7 +33,7 @@ header {
   width: 4rem;
 }
 
-header h2 {
+.home-header h2 {
   font-weight: 900;
   color: var(--primary-100);
   margin-left: 1rem;
@@ -38,6 +43,12 @@ header h2 {
   padding: 1.3rem 4rem;
   font-size: 1.2rem;
   border-radius: 8px;
+  background-color: var(--primary-100);
+  color: white;
+}
+
+.login-button:hover {
+  background-color: var(--primary-200);
 }
 
 /* banner */
@@ -60,7 +71,7 @@ header h2 {
   margin: 12rem 0;
 }
 
-.banner .title {
+.banner-title {
   line-height: 5rem;
 }
 
@@ -89,23 +100,16 @@ header h2 {
   justify-content: center;
 }
 
-.home-card-container {
-  max-width: 95rem;
-  padding: 13rem 0;
-}
-
 .home-card-content {
+  max-width: 95rem;
+  margin: 13rem 0;
+  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
   height: auto;
   background-color: var(--secondary-300);
-  padding: 0 1rem;
-}
-
-.home-card-img {
-  max-width: 58rem;
 }
 
 .home-card-info {
@@ -115,23 +119,23 @@ header h2 {
   width: 100%;
 }
 
-.home-card-info .badge {
+.home-card-badge {
   font-size: 1.4rem;
   color: var(--primary-100);
   font-weight: 700;
 }
 
-.home-card-info .title {
+.home-card-title {
   line-height: 5rem;
 }
 
-.home-card-info .text {
+.home-card-description {
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 1rem;
 }
 
-.home-card-container:nth-child(2) .home-card-content {
+.home-card-content:nth-child(2) {
   flex-direction: row-reverse;
   text-align: end;
 }
@@ -169,4 +173,95 @@ footer {
   gap: 1rem;
   align-items: center;
   justify-self: end;
+}
+
+/* 
+responsive CSS
+desktop-first
+breakpoint: 1920px, 1024px, 768px
+*/
+
+@media (max-width: 1919px) {
+  .home-header {
+    padding: 0 200px;
+  }
+
+  .home-header-content {
+    max-width: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-header {
+    padding: 0 1rem;
+  }
+
+  .banner {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+
+  .banner-content {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 0 15rem;
+  }
+
+  .change-line {
+    display: inline;
+  }
+
+  .bottom .banner-content {
+    text-align: center;
+    margin-top: 15rem;
+  }
+
+  .home-card-content {
+    margin: 2rem 0;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .home-card-content:nth-child(2) {
+    flex-direction: column;
+    text-align: end;
+  }
+
+  .footer-content {
+    max-width: 60rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-header .logo {
+    display: none;
+  }
+
+  .home-cards {
+    margin-top: 4rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 0.6fr;
+    grid-template-areas:
+      "support social"
+      "copyright .";
+  }
+
+  .support {
+    grid-area: support;
+    justify-self: start;
+  }
+
+  .social-media {
+    grid-area: social;
+  }
+
+  .copyright {
+    grid-area: copyright;
+  }
 }

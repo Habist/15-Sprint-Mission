@@ -1,0 +1,121 @@
+.login-signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 64rem;
+  height: auto;
+  margin: 0 auto;
+  padding: 3rem 0; /*화면 height이 작을때 margin은 스크롤 영역에 포함되지 않기 때문에 여유가 없어보여서 padding 적용*/
+}
+
+/* login-signup header */
+.login-signup-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.login-signup-header .logo {
+  width: 10rem;
+}
+
+.login-signup-header h2 {
+  font-weight: 900;
+  color: var(--primary-100);
+  font-size: 6rem;
+  margin-left: 2rem;
+}
+
+/* login-signup form */
+.login-signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+input {
+  background-color: var(--secondary-100);
+  border-radius: 12px;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-left: 2.4rem;
+}
+
+.login-signup-button {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  padding: 1.2rem;
+  border-radius: 40px;
+}
+
+/* password visibility */
+.password-input {
+  position: relative;
+}
+
+.password-visibility {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 50%;
+  right: 2.4rem;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+.password-visibility:hover {
+  background-color: transparent;
+}
+
+/* oauth container */
+.oauth-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 2.3rem;
+  background-color: var(--primary-0);
+  border-radius: 8px;
+}
+
+.oauth-container p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--secondary-800);
+}
+
+.oauth-site {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.oauth-container a {
+  display: inline-block;
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+/* switch */
+.switch {
+  color: var(--secondary-800);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.switch-button {
+  color: var(--primary-100);
+  text-decoration: underline;
+}

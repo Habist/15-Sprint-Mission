@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,24 +14,23 @@
     <title>판다마켓</title>
   </head>
   <body>
-    <header>
-      <div class="header-content">
+    <header class="home-header">
+      <div class="home-header-content">
         <div class="logo-container">
           <img src="images/panda_face.svg" alt="logo" class="logo" />
           <a href="/"><h2>판다마켓</h2></a>
         </div>
-        <a href="/login">
-          <button class="login-button">로그인</button>
-        </a>
+        <a href="./html/login.html" class="login-button">로그인</a>
       </div>
     </header>
+
     <main>
       <section class="banner">
         <div class="banner-content">
-          <h1 class="title">
+          <h2 class="banner-title">
             일상의 모든 물건을
-            <span class="change-line"> 거래해 보세요 </span>
-          </h1>
+            <span class="change-line">거래해 보세요</span>
+          </h2>
           <a href="/items">
             <button class="view-button">구경하러 가기</button>
           </a>
@@ -43,79 +42,73 @@
         />
       </section>
       <section class="home-cards">
-        <div class="home-card-container">
-          <div class="home-card-content">
-            <img
-              src="images/home_01.svg"
-              alt="Two pandas looking at a green shirt"
-              class="home-card-img"
-            />
-            <div class="home-card-info">
-              <div class="badge">Hot item</div>
-              <h1 class="title">
-                인기 상품을
-                <span class="change-line"> 확인해 보세요 </span>
-              </h1>
-              <p class="text">
-                가장 HOT한 중고거래 물품을
-                <br />
-
-                판다 마켓에서 확인해 보세요
-              </p>
-            </div>
+        <div class="home-card-content">
+          <img
+            src="images/home_01.svg"
+            alt="Two pandas looking at a green shirt"
+            class="home-card-img"
+          />
+          <div class="home-card-info">
+            <div class="home-card-badge">Hot item</div>
+            <h2 class="home-card-title">
+              인기 상품을
+              <span class="change-line">확인해 보세요</span>
+            </h2>
+            <p class="home-card-description">
+              가장 HOT한 중고거래 물품을
+              <br />
+              판다 마켓에서 확인해 보세요
+            </p>
           </div>
         </div>
-        <div class="home-card-container">
-          <div class="home-card-content">
-            <img
-              src="images/home_02.svg"
-              alt="Searching a product to buy"
-              class="home-card-img"
-            />
-            <div class="home-card-info">
-              <div class="badge">Search</div>
-              <h1 class="title">
-                구매를 원하는
-                <span class="change-line"> 상품을 검색하세요 </span>
-              </h1>
-              <p class="text">
-                구매하고 싶은 물품은 검색해서
-                <br />
 
-                쉽게 찾아보세요
-              </p>
-            </div>
+        <div class="home-card-content">
+          <img
+            src="images/home_02.svg"
+            alt="Searching a product to buy"
+            class="home-card-img"
+          />
+          <div class="home-card-info">
+            <div class="home-card-badge">Search</div>
+            <h2 class="home-card-title">
+              구매를 원하는
+              <span class="change-line">상품을 검색하세요</span>
+            </h2>
+            <p class="home-card-description">
+              구매하고 싶은 물품은 검색해서
+              <br />
+              쉽게 찾아보세요
+            </p>
           </div>
         </div>
-        <div class="home-card-container">
-          <div class="home-card-content">
-            <img
-              src="images/home_03.svg"
-              alt="Upload a product to sell"
-              class="home-card-img"
-            />
-            <div class="home-card-info">
-              <div class="badge">Register</div>
-              <h1 class="title">
-                판매를 원하는
-                <span class="change-line"> 상품을 등록하세요 </span>
-              </h1>
-              <p class="text">
-                어떤 물건이든 판매하고 싶은 상품을<br />
-                쉽게 등록하세요
-              </p>
-            </div>
+
+        <div class="home-card-content">
+          <img
+            src="images/home_03.svg"
+            alt="Upload a product to sell"
+            class="home-card-img"
+          />
+          <div class="home-card-info">
+            <div class="home-card-badge">login-signup</div>
+            <h2 class="home-card-title">
+              판매를 원하는
+              <span class="change-line">상품을 등록하세요</span>
+            </h2>
+            <p class="home-card-description">
+              어떤 물건이든 판매하고 싶은 상품을<br />
+              쉽게 등록하세요
+            </p>
           </div>
         </div>
       </section>
       <section class="bottom">
         <div class="banner">
           <div class="banner-content">
-            <h1 class="title">
+            <h2 class="banner-title">
               믿을 수 있는
               <br />
               판다마켓 중고 거래
-            </h1>
+            </h2>
           </div>
           <img
             src="images/home_bottom.svg"
@@ -132,36 +125,44 @@
           <a href="/privacy">Privacy Policy</a>
           <a href="/faq">FAQ</a>
         </div>
-        <div class="social-media">
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/facebook.svg" alt="facebook" />
-          </a>
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/twitter.svg" alt="twitter" />
-          </a>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/youtube.svg" alt="youtube" />
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/instagram.svg" alt="instagram" />
-          </a>
-        </div>
+        <ul class="social-media">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="images/facebook.svg" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="images/twitter.svg" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="images/youtube.svg" alt="youtube" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="images/instagram.svg" alt="instagram" />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
