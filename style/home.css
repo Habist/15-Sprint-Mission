@@ -1,5 +1,3 @@
-@import "./reset.css";
-
 nav {
     display: flex;
     justify-content: space-between;
