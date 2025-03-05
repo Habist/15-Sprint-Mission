@@ -1,14 +1,5 @@
 @import "./reset.css";
 
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-family: 'Pretendard', sans-serif;
-    font-size: 62.5%;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,19 +16,6 @@ nav {
 a {
     text-decoration: none;
     color: inherit;
-}
-
-:root {
-    --gray50: #f9fafb;
-    --gray100: #f3f4f6;
-    --gray200: #e5e7eb;
-    --gray400: #9ca3af;
-    --gray500: #6b7280;
-    --gray600: #4b5563;
-    --gray700: #374151;
-    --gray800: #1f2937;
-    --gray900: #111827;
-    --blue: #3692ff;
 }
 
 .logo {
