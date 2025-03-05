@@ -3,24 +3,17 @@
   box-sizing: border-box;
 }
 body {
-  margin: 14.4375rem auto 0;
+  margin: 3.75rem auto 0;
   display: flex;
   justify-content: center;
 }
-.body-signup {
-  margin: 3.75rem auto 0;
-}
 main {
   width: 40rem;
-  height: 27.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
-}
-.main-signup {
-  height: 53.5625rem;
+  gap: 1.5rem;
 }
 .main-logo {
   width: 24.75rem;
@@ -28,15 +21,10 @@ main {
 }
 form {
   width: 40rem;
-  height: 27.875rem;
   display: flex;
   gap: 1.5rem;
   border-radius: 1.25rem;
   flex-direction: column;
-}
-.form-signup {
-  height: 33.6875rem;
-  gap: 1rem;
 }
 .input-label {
   width: 100%;
