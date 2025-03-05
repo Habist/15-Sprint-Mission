@@ -56,12 +56,13 @@ input {
     padding: 16px 24px 16px;
 }
 
+
 .password {
     position: relative;
     width: 640px;
 }
 
-.hide_icon {
+.pwd_icon {
     display: inline-flex;
     position: absolute;
     right: 16px;
@@ -71,7 +72,8 @@ input {
 }
 
 
-.login_btn button {
+
+.submit_btn button {
     color: var(--gray100);
     background-color: var(--blue);
     width: 640px;
@@ -81,6 +83,7 @@ input {
     font-weight: 600;
     line-height: 32px;
     border-radius: 40px;
+    margin-bottom: 24px;
 }
 
 .sign_easy {
@@ -119,7 +122,7 @@ input {
 }
 
 
-.signup {
+.move_page {
     margin-top: 24px;
     display: flex;
     justify-content: center;
@@ -130,7 +133,7 @@ input {
     color: var(--gray800);
 }
 
-.signup a {
+.move_page a {
     color: var(--blue);
     text-decoration: underline;
 }
