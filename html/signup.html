@@ -26,7 +26,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       crossorigin="anonymous"
     />
-    <title>Login</title>
+    <title>signup</title>
   </head>
   <body>
     <div class="login-page">
@@ -37,10 +37,10 @@
           class="form-image"
           onclick="goHomepage()"
         />
-        <!-- login form -->
-        <form class="login-form">
-          <!-- email label -->
-          <label for="form-email">
+        <!-- 회원 가입 폼 -->
+        <form class="submit-form">
+          <!-- 이메일 -->
+          <label for="submit-email">
             이메일
             <input
               type="text"
@@ -50,7 +50,18 @@
             />
           </label>
 
-          <!-- password label -->
+          <!-- 닉네임 -->
+          <label for="submit-name">
+            닉네임
+            <input
+              type="text"
+              name="userName"
+              placeholder="panda"
+              id="form-name"
+            />
+          </label>
+
+          <!-- 패스워드 -->
           <label for="form-password"
             >비밀번호
             <div class="password-box">
@@ -60,6 +71,7 @@
                 placeholder="password"
                 id="form-password"
               />
+              <!-- fontawesome 비밀번호 표시 -->
               <i
                 class="fa-regular fa-eye toggle-password"
                 onclick="togglePasswordVisibility('form-password', this)"
@@ -67,7 +79,25 @@
             </div>
           </label>
 
-          <button>로그인</button>
+          <!-- 비밀번호 확인 -->
+          <label for="form-password-check"
+            >비밀번호확인
+            <div class="password-box">
+              <input
+                type="password"
+                name="userPassword"
+                placeholder="password"
+                id="form-password-check"
+              />
+              <i
+                class="fa-regular fa-eye toggle-password"
+                onclick="togglePasswordVisibility('form-password-check', this)"
+              ></i>
+            </div>
+          </label>
+
+          <button>회원가입</button>
+
           <!-- 간편 로그인 -->
           <div class="easy-login">
             <span>간편 로그인 하기</span>
@@ -83,17 +113,17 @@
               /></a>
             </div>
           </div>
-          <!-- 최하단 메시지 요소 -->
+
+          <!-- 최하단 메시지 박스 -->
           <div class="message-box">
             <p class="message">
-              판다마켓이 처음이신가요?
-              <a href="/html/signup.html">회원가입</a>
+              이미 회원이신가요?
+              <a href="/html/login.html">로그인</a>
             </p>
           </div>
         </form>
       </div>
     </div>
-    <!-- 비밀번호 showing clickEvent import -->
     <script src="/js/login_password_showing.js"></script>
   </body>
 </html>
