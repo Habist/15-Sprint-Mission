@@ -1,37 +1,18 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-html {
-    font-family: 'Pretendard', sans-serif;
-}
-
-body {
-    margin: 0;
-}
-
-@font-face {
-    font-family: 'ROKAF Sans';
-    src: url("fonts/ROKAF_Slab_Serif_Bold.woff") format('woff');
-}
-
-a {
-    cursor: pointer;
-    text-decoration: none;
-}
 
 .text-wrap{
     display: block;
 }
 
-
 /*herader section*/
 header {
+    position: sticky;
+    top: 0;
     border-bottom: 1px solid #DFDFDF;
+    background-color: var(--white);
 }
 
 .herader-nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,30 +26,22 @@ header {
     gap: 10px;
 }
 .header__logo{
-    width: 40px;
-    height: 40px;
-}
-
-.header__title {
-    font-size: 25px;
-    font-weight: 700;
-    color: #3692FF;
-    font-family: 'ROKAF Sans', sans-serif;
-    margin-bottom: 5px;
+    width: 153px;
+    height: 51px;
 }
 
 .header__button {
     border-radius: 8px;
     width: 128px;
     height: 48px;
-    padding: 14px 23px;
-    color: #F3F4F6;
+    padding: 16px 23px;
+    color: var(--gray100);
 }
 
 
 /*banner section*/
 .banner-section {
-    background-color: #CFE5FF;
+    background-color: var(--light-blue);
 }
 
 .banner {
@@ -89,7 +62,7 @@ header {
 .banner__text {
     font-weight: 700;
     font-size: 40px;
-    color: #374151; 
+    color: var(--gray700); 
     line-height: 56px;
 }
 
@@ -99,7 +72,7 @@ header {
     padding: 16px 124px;
     width: 357px;
     height: 56px;
-    color: #F9FAFB;
+    color: var(--gray50); 
     font-size: 20px;
     margin-bottom: 110px;
 }
@@ -117,13 +90,13 @@ header {
 
 .button {
     display: inline-block;
-    background-color: #3692FF;
+    background-color: var(--blue);
     font-weight: 600;
     text-align: center;
 }
 
 .button:hover {
-    background-color: #1967D6;
+    background-color: var(--dark-blue);
 }
 
 
@@ -163,21 +136,21 @@ header {
 
 .card__category {
     font-size: 18px;
-    color: #3692FF;
+    color: var(--blue);
     font-weight: 700;
 }
 
 .card__title {
     font-size: 40px;
     font-weight: 700;
-    color: #374151;
+    color: var(--gray700);
     line-height: 56px;
 }
 
 .card__description {
     font-size: 24px;
     font-weight: 500;
-    color: #374151;
+    color: var(--gray700);
     line-height: 32px;
 }
 
@@ -195,7 +168,7 @@ header {
 .footer{
     display: flex;
     justify-content: space-around;
-    background-color: #111827;
+    background-color: var(--gray900);
     padding-top: 32px;
     height: 160px;
     font-size: 16px;
@@ -203,7 +176,7 @@ header {
 }
 
 .footer__name{
-    color: #9CA3AF; 
+    color: var(--gray400); 
 }
 
 .footer-links{
@@ -212,7 +185,7 @@ header {
 }
 
 .footer__link{
-    color: #E5E7EB;
+    color: var(--gray200);
 }
 
 .footer-icons{
@@ -222,7 +195,6 @@ header {
 
 /*Laptop Version*/
 @media (max-width: 1024px) {
-
    .herader-nav {
         margin-inline: 10%;
     }
@@ -240,12 +212,13 @@ header {
 
     .card {
         max-width: 760px;
-        height: 437px;
+        height: auto;
         gap: 48px;
     }
 
     .card__img {
         width: 60%;
+        height: auto;
     }
 
     .card__title {
@@ -261,7 +234,6 @@ header {
 
 /*Tablet Version*/
 @media (max-width: 768px) {
-
     .herader-nav {
         margin-inline: 10%;
     }

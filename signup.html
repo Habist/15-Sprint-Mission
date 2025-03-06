@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/variables.css">
     <link rel="stylesheet" href="css/auth/auth.css">
-    <title>판다마켓 : 로그인</title>
+    <title>판다마켓 : 회원가입</title>
 </head>
-<body>
+<body> 
     <form class="form">
         <a class="form__logo-link" href="/">
-            <img class="form__logo" src="images/logo/logo.png" alt="판다마켓 메인으로 이동">
+            <img class="form__logo" src="images/logo/logo.png" alt="메인으로 이동">
         </a>
         <label class="form__label" for="email">이메일</label>
         <input class="form__input" id="email" type="email" name="email" placeholder="이메일을 입력해주세요.">
+        <label class="form__label" for="nickname">닉네임</label>
+        <input class="form__input" id="nickname" type="text" name="nickname" placeholder="닉네임을 입력해주세요.">
         <label class="form__label" for="password">비밀번호</label> 
         <div class="form__password-input">
             <input class="form__input" id="password" type="password" name="password" placeholder="비밀번호를 입력해주세요.">
-			<button class="form__password-toggle" type="button"></button>
+            <button class="form__password-toggle"type="button"></button>
         </div>
-        <button class="form__button" type="submit">로그인</button>
+        <label class="form__label" for="password-confirm">비밀번호 확인</label> 
+        <div class="form__password-input">
+            <input class="form__input" id="password-confirm" type="text" name="password-confirm" placeholder="비밀번호를 입력해주세요.">
+            <button class="form__password-toggle password-confirm"type="button"></button>
+        </div>
+        <button class="form__button" type="submit">회원가입</button>
         <div class="form__sns">
             <p class="form__sns-title">간편 로그인 하기</p>
             <ul class="form__sns-list">
@@ -38,8 +45,8 @@
             </ul>
         </div>
         <p class="form__footer">
-            판다마켓이 처음이신가요? 
-            <a class="form__footer-link" href="signup.html">회원가입</a>
+            이미 회원이신가요?
+            <a class="form__footer-link" href="login.html">로그인</a>
         </p>
     </form>
 </body>
