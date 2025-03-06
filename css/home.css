@@ -152,6 +152,7 @@ footer {
 .footer-content {
   max-width: 90rem;
   width: 100%;
+  padding: 0 2rem;
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -192,7 +193,7 @@ breakpoint: 1920px, 1200px, 768px (375px미만은 고려하지 않습니다.)
 
 @media (max-width: 1199px) {
   .home-header {
-    padding: 0 1rem;
+    padding: 0 24px;
   }
 
   .banner {
@@ -235,6 +236,10 @@ breakpoint: 1920px, 1200px, 768px (375px미만은 고려하지 않습니다.)
 }
 
 @media (max-width: 767px) {
+  .home-header {
+    padding: 0 16px;
+  }
+
   .home-header .logo {
     display: none;
   }
