@@ -5,6 +5,7 @@
   height: auto;
   margin: 0 auto;
   padding: 3rem 0; /*화면 height이 작을때 margin은 스크롤 영역에 포함되지 않기 때문에 여유가 없어보여서 padding 적용*/
+  gap: 2.4rem;
 }
 
 /* login-signup header */
@@ -46,7 +47,7 @@ input {
   height: 6rem;
   font-size: 1.6rem;
   font-weight: 400;
-  padding-left: 2.4rem;
+  padding: 0 2.4rem;
 }
 
 .login-signup-button {
@@ -116,4 +117,5 @@ input {
 .switch-button {
   color: var(--primary-100);
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
