@@ -176,8 +176,8 @@ footer {
 
 /* 
 responsive CSS
-desktop-first
-breakpoint: 1920px, 1024px, 768px
+desktop-first(1920이상) 
+breakpoint: 1920px, 1200px, 768px (375px미만은 고려하지 않습니다.)
 */
 
 @media (max-width: 1919px) {
@@ -190,7 +190,7 @@ breakpoint: 1920px, 1024px, 768px
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   .home-header {
     padding: 0 1rem;
   }
@@ -234,7 +234,7 @@ breakpoint: 1920px, 1024px, 768px
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .home-header .logo {
     display: none;
   }
@@ -247,8 +247,8 @@ breakpoint: 1920px, 1024px, 768px
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.4fr 0.6fr;
     grid-template-areas:
-      "support social"
-      "copyright .";
+      'support social'
+      'copyright .';
   }
 
   .support {
