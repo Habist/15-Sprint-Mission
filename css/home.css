@@ -33,8 +33,7 @@ footer {
   width: 4rem;
 }
 
-.home-header h2 {
-  font-weight: 900;
+header h1 a {
   color: var(--primary-100);
   margin-left: 1rem;
 }
