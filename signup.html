@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/common/auth.css">
     <link rel="stylesheet" href="/css/common/reset.css">
     <link rel="stylesheet" href="css/pages/login.css">
-    <title>판다마켓 - 로그인</title>
+    <title>판다마켓 - 회원가입</title>
 </head>
 <body>
     <main>
@@ -20,14 +20,25 @@
                     <input type="email" name="email">
                 </div>
                 <div class="input_group">
+                    닉네임<br>
+                    <input type="username" name="username">
+                </div>
+                <div class="input_group">
                     비밀번호<br>
                     <div class="password">
                         <input id="pwd" type="password" name="password">
                         <img class="pwd_icon" src="/assets/icons/hide-password.png" alt="비밀번호가리기">
                     </div>
                 </div>
+                <div class="input_group">
+                    비밀번호 확인<br>
+                    <div class="password">
+                        <input id="pwd check" type="text" name="password">
+                        <img class="pwd_icon" src="/assets/icons/show-password.png" alt="비밀번호보이기기">
+                    </div>
+                </div>
                 <div class="submit_btn">
-                    <button type="submit">로그인</button>
+                    <button type="submit">회원가입</button>
                 </div>
             </form>
             <div class="sign_easy">
@@ -43,7 +54,7 @@
             </div>
             <div class="move_page">
                 판다마켓이 처음이신가요?
-                <a href="/signup.html">회원가입</a>
+                <a href="/login.html">회원가입</a>
             </div>
         </div>
     </main>

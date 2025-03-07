@@ -1,14 +1,20 @@
+/* home.css */
+
+/* 페이지 스타일 */
 body {
     margin: 0 auto;
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
-header {
+.global_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 70px;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
 }
 
 h2 {
@@ -18,10 +24,11 @@ h2 {
     color: #374151;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+a {
+    cursor: pointer;
 }
+
+
 
 .logo {
     margin-left: 200px;
@@ -37,12 +44,15 @@ img {
     border: none;
     border-radius: 8px;
     color: #F3F4F6;
-    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+    line-height: 48px;
     width: 128px;
     height: 48px;
     margin-right: 200px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
 }
 
 .background {
@@ -59,6 +69,11 @@ img {
 
 .background.bottom {
     gap: 69px;
+}
+
+.top_img {
+    width: 746px;
+    height: 340px;
 }
 
 .bg_description {
@@ -80,14 +95,16 @@ img {
 }
 
 .items_btn {
+    display: inline-block;
     background-color: #3692FF;
     color: #F3F4F6;
     border-radius: 40px;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    padding: 16px 124px 16px 124px;
     cursor: pointer;
+    padding: 16px 124px 16px 124px;
+    text-decoration: none;
 }
 
 .main_container {
@@ -96,7 +113,6 @@ img {
     justify-content: center;
     align-items: center;
 }
-
 
 .container {
     margin: 138px 0;
@@ -108,18 +124,22 @@ img {
     gap: 64px;
 }
 
+.container_img {
+    width: 579px;
+    height: 444px;
+}
+
 .description.first {
    width: 298px;
 }
 
 .description.second {
-    text-align: right
+    text-align: right;
 }
 
 .description.third {
     width: 359px;
 }
-
 
 .description h4 {
     color: #3692FF;
@@ -138,6 +158,11 @@ img {
     font-weight: 500;
     line-height: 32px;
     color: #374151;
+}
+
+.bottom_img {
+    width: 746px;
+    height: 397px;
 }
 
 footer {
@@ -161,18 +186,16 @@ footer {
     gap: 30px;
 }
 
-.privacy_faq a{
+.privacy_faq a {
     text-decoration: none;
     color: #E5E7EB;
-}
-
-a:hover {
-    cursor: pointer;
 }
 
 .icons {
     display: flex;
     gap: 12px;
+    padding: 0;
+    list-style: none;
 }
 
 .icons img {
