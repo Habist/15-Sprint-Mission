@@ -1,0 +1,11 @@
+# node_modules
+node_modules/
+
+# 로그 파일
+*.log
+
+# 환경 설정 파일
+.env
+
+# macOS의 경우 생성되는 파일들
+.DS_Store

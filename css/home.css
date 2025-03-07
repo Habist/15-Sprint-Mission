@@ -33,8 +33,7 @@ footer {
   width: 4rem;
 }
 
-.home-header h2 {
-  font-weight: 900;
+header h1 a {
   color: var(--primary-100);
   margin-left: 1rem;
 }
@@ -153,6 +152,7 @@ footer {
 .footer-content {
   max-width: 90rem;
   width: 100%;
+  padding: 0 2rem;
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -177,8 +177,8 @@ footer {
 
 /* 
 responsive CSS
-desktop-first
-breakpoint: 1920px, 1024px, 768px
+desktop-first(1920이상) 
+breakpoint: 1920px, 1200px, 768px (375px미만은 고려하지 않습니다.)
 */
 
 @media (max-width: 1919px) {
@@ -191,9 +191,9 @@ breakpoint: 1920px, 1024px, 768px
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   .home-header {
-    padding: 0 1rem;
+    padding: 0 24px;
   }
 
   .banner {
@@ -235,7 +235,11 @@ breakpoint: 1920px, 1024px, 768px
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .home-header {
+    padding: 0 16px;
+  }
+
   .home-header .logo {
     display: none;
   }
@@ -248,8 +252,8 @@ breakpoint: 1920px, 1024px, 768px
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.4fr 0.6fr;
     grid-template-areas:
-      "support social"
-      "copyright .";
+      'support social'
+      'copyright .';
   }
 
   .support {
