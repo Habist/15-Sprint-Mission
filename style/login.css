@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    width: 64rem;
+}
+
+main {
+    width: 64rem;
+}
+
+label {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+input {
+    height: 5.6rem;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--gray100);
+    padding: 1.6rem 2.4rem;
+}
+
+button {
+    height: 5.6rem;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--blue);
+    color: var(--gray100);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+.login-form,
+.email-container,
+.password-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    gap: 2.4rem;
+}
+
+.email-container,
+.password-container {
+    gap: 1.6rem;
+}
+
+.password-input {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.password-input input {
+    width: 100%;
+    padding-right: 4.8rem;
+}
+
+.password-input img {
+    position: absolute;
+    right: 2.4rem;
+    top: 1.6rem;
+}
+
+.social-login {
+    background-color: #E6F2FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 2.3rem;
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    border-radius: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 1.6rem;
+}
+
+li a {
+    display: flex;
+}
+
+li img {
+    width: 4.2rem;
+}
+
+.ask-signup-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    gap: 0.4rem;
+}
+
+.ask-signup-section a {
+    color: #3692ff;
+}
+
+button {
+    cursor: pointer;
+}

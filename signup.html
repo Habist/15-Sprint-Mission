@@ -8,8 +8,8 @@
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="/style/base.css">
-    <link rel="stylesheet" href="/style/login.css">
-    <title>로그인</title>
+    <link rel="stylesheet" href="/style/signup.css">
+    <title>회원가입</title>
 </head>
 
 <body>
@@ -19,23 +19,33 @@
     <main>
         <section>
 
-            <form class="login-form">
+            <form class="signup-form">
 
                 <div class="email-container">
-                    <label for="login-email">이메일</label>
-                    <input id="login-email" name="email" type="email">
+                    <label for="signup-email">이메일</label>
+                    <input id="signup-email" name="email" type="email">
                 </div>
-
+                <div class="nickname-container">
+                    <label for="signup-nickname">닉네임</label>
+                    <input id="signup-nickname" name="nickname" type="text">
+                </div>
                 <div class="password-container">
-                    <label for="login-password">비밀번호</label>
+                    <label for="signup-password">비밀번호</label>
                     <div class="password-input">
-                        <input id="login-password" name="password" type="password">
+                        <input id="signup-password" name="password" type="password">
+                        <img src="img/login/btn_visibility_off.png" alt="비밀번호 보기" style="width: 2.4rem">
+                    </div>
+                </div>
+                <div class="password-check-container">
+                    <label for="signup-password-check">비밀번호 확인</label>
+                    <div class="password-input">
+                        <input id="signup-password-check" name="password-check" type="password">
                         <img src="img/login/btn_visibility_off.png" alt="비밀번호 보기" style="width: 2.4rem">
                     </div>
                 </div>
 
                 <button type="submit">
-                    로그인
+                    회원가입
                 </button>
             </form>
 
@@ -52,9 +62,9 @@
                 </li>
             </ul>
         </section>
-        <section class="ask-signup-section">
-            <p>판다마켓이 처음이신가요?</p>
-            <a href="/signup.html">회원가입</a>
+        <section class="ask-login-section">
+            <p>이미 회원이신가요?</p>
+            <a href="/login.html">로그인</a>
         </section>
     </main>
 </body>
