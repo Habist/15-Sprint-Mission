@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
     <title>판다마켓</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="/"><img src="img/logo.png" /></a>
-        <a href="/login"> <button>로그인</button></a>
+        <a href="screens/login.html" id="login">로그인</a>
       </nav>
     </header>
 
     <main>
       <section class="main-banner">
         <banner>
-          <div class="main-banner__content">
-            <h1>
-              일상의 모든 물건을<br />
-              거래해 보세요
-            </h1>
-            <a href="/items"><button id="search-btn">구경하러 가기</button></a>
+          <div class="banner-left">
+            <div class="main-banner__content">
+              <h1>일상의 모든 물건을 거래해 보세요</h1>
+              <a href="/items.html"
+                ><button id="search-btn">구경하러 가기</button></a
+              >
+            </div>
+            `
           </div>
-          <img src="img/Img_home_top.png" />
+          <div class="banner-right">
+            <img src="img/img_home_top.png" />
+          </div>
         </banner>
       </section>
 
@@ -70,7 +80,10 @@
                 판매를 원하는<br />
                 상품을 등록하세요
               </h2>
-              <p>어떤 물건이든 판매하고 싶은 상품을 쉽게 등록하세요</p>
+              <p>
+                어떤 물건이든 판매하고 싶은 상품을<br />
+                쉽게 등록하세요
+              </p>
             </div>
           </div>
         </article>
@@ -78,13 +91,17 @@
       <section class="main-space"></section>
       <section class="main-banner">
         <banner>
-          <div class="main-banner__content main-banner-bottom__content">
-            <h1>
-              믿을 수 있는<br />
-              판다마켓 중고 거래래
-            </h1>
+          <div class="banner-left">
+            <div class="main-banner__content main-banner-bottom__content">
+              <h1>
+                믿을 수 있는<br />
+                판다마켓 중고 거래
+              </h1>
+            </div>
           </div>
-          <img src="img/Img_home_bottom.png" />
+          <div class="banner-right">
+            <img src="img/Img_home_bottom.png" />
+          </div>
         </banner>
       </section>
     </main>
@@ -92,23 +109,31 @@
       <div class="footer-container">
         <div>&copy;codeit - 2024</div>
         <div class="footer-middle">
-          <a href="/privacy">privacy Policy</a>
+          <a href="/privacy">Privacy Policy</a>
           <a href="/faq">FAQ</a>
         </div>
-        <div class="footer-right">
-          <a href="https://www.facebook.com/" target="_blank"
-            ><img src="img/ic_facebook.png"
-          /></a>
-          <a href="https://x.com/" target="_blank"
-            ><img src="img/ic_twitter.png"
-          /></a>
-          <a href="https://www.youtube.com/" target="_blank"
-            ><img src="img/ic_youtube.png"
-          /></a>
-          <a href="https://www.instagram.com/" target="_blank"
-            ><img src="img/ic_instagram.png"
-          /></a>
-        </div>
+        <ul class="footer-right">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="img/ic_facebook.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://x.com/" target="_blank"
+              ><img src="img/ic_twitter.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img src="img/ic_youtube.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="img/ic_instagram.png"
+            /></a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

@@ -1,14 +1,26 @@
+.main-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+}
+
 .main-article {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 6rem;
+  height: 100%;
 }
 
 .main-article-container {
   display: flex;
-  width: 988px;
-  height: 444px;
+  justify-content: center;
+  height: 35rem;
+  img {
+    width: 75%;
+    height: 100%;
+  }
 }
 
 .main-article__text {
@@ -16,22 +28,22 @@
   flex-direction: column;
   justify-content: center;
   background-color: #fcfcfc;
-  gap: 24px;
-  padding: 30px 40px;
+  width: 35%;
+  gap: 2.4rem;
+  padding: 2rem 2rem;
   h5 {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 700;
-    line-height: 26px;
     color: #3692ff;
   }
   h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 3rem;
   }
   p {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.4rem;
+    line-height: 2rem;
     font-weight: 500;
   }
 }
